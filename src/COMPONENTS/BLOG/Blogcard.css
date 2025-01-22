@@ -1,0 +1,70 @@
+/* Blog Card Styles */
+.blog-card {
+    background-color: #fff; 
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); 
+    overflow: hidden;
+    width: 350px;
+    margin: 20px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+    cursor: pointer; 
+  }
+  
+  .blog-card:hover {
+    transform: translateY(-5px); /* Slight lifting effect */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Shadow increase */
+  }
+  
+
+  .blog-card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid #f1c40f; 
+  }
+  
+  /* Blog Card Title */
+  .blog-card-title {
+    font-size: 1.4rem;
+    color: #333; /* Dark text */
+    /* padding: 12px; */
+    text-align: center;
+    font-weight: bold; 
+    /* border-bottom: 2px solid #333;  */
+  }
+  
+  /* Blog Card Description */
+  .blog-card-description {
+    padding: 15px;
+    font-size: 1rem;
+    color: #555; 
+    line-height: 1.6; 
+  }
+  
+  /* Read More Button */
+  .read-more-btn {
+    display: block;
+    padding: 12px;
+    background-color: #f1c40f; /* Yellow background */
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 15px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .read-more-btn:hover {
+    background-color: #333; /* Dark background on hover */
+    color: #f1c40f; /* Yellow text */
+    transform: scale(1.1); /* Slightly scale up on hover */
+  }
+  
+  
+@media (max-width: 480px) {
+  .blog-card {
+  
+    width: 100%;
+  }
+}

@@ -1,0 +1,19 @@
+.aboutus{
+    padding: 30px 40px 40px 40px;
+    font-size: 18px;
+    line-height: 25px;
+}
+.abouth1{
+    font-weight: bold;
+}
+.aboutus h2{
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(15, 20, 20);
+}
+.aboutus ul{
+     text-decoration: none;
+}
+.aboutus span{
+    font-weight: bold;
+}
