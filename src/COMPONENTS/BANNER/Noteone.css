@@ -1,0 +1,13 @@
+.noteone{
+	display: flex;
+	padding:20px 50px 50px 50px ;
+	justify-content: space-evenly;
+}
+.noteone-left{
+	width: 90%;
+	
+}
+.noteone-right{
+	width: 90%;
+
+}
