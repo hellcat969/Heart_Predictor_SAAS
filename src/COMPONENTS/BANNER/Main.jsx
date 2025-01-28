@@ -10,7 +10,7 @@ const Main = () => {
 <main className='main'> 
     
 </main>
-<HealthInputs/>
+{/* <HealthInputs/> */}
 <Note/>
    </>
   )
