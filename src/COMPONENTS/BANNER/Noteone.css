@@ -1,9 +1,10 @@
 .noteone{
 	display: flex;
-	padding:50px 50px 40px 40px ;
+	padding:70px 70px 40px 40px ;
 	justify-content: center;
 	margin-left: 30px;
 	margin-right: 30px;
+	gap: 30px;
 }
 .noteone-left{
 	width: 50%;
@@ -12,15 +13,23 @@
 }
 .noteone-right{
 	width: 50%;
-
+    
+}
+.noteone-right h2{
+	font-weight: bold;
+    color: black;
+}
+.noteone-left h2{
+	font-weight: bold;
+    color: black;
 }
 .noteone-left p {
     display: flex;
     justify-content: center;
-    text-align: left; /* Ensures text is centered */
+    text-align: center; /* Ensures text is centered */
 }
 .noteone-right p {
     display: flex;
     justify-content: center;
-    text-align: left; /* Ensures text is centered */
+    text-align: center; /* Ensures text is centered */
 }

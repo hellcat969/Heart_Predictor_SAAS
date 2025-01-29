@@ -4,24 +4,24 @@ import "./Pricing.css"; // Add styles here
 const Pricing = () => {
   const plans = [
     {
-      name: "Basic",
-      price: "$10/month",
+      name: "Free",
+      price: "$0/month",
       requestsPerMonth: "500 requests",
       features: ["ALL"],
-      rateLimits: "100 requests per hour",
+      rateLimits: "10 requests per min",
       buttonLabel: "Choose Basic",
     },
     {
       name: "Pro",
-      price: "$50/month",
-      requestsPerMonth: "100,000 requests",
+      price: "$10/month",
+      requestsPerMonth: "1500 requests",
 	  features: ["ALL"],
-      rateLimits: "500 requests/minute",
+      rateLimits: "50 requests per min",
       buttonLabel: "Choose Pro",
     },
     {
       name: "Enterprise",
-      price: "$200/month",
+      price: "$15/month",
       requestsPerMonth: "Unlimited requests",
 	  features: ["ALL"],
       rateLimits: "Unlimited",

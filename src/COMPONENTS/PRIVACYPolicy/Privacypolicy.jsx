@@ -134,17 +134,6 @@ const PrivacyPolicy = () => {
         Website constitutes acceptance of the updated terms.
       </p>
 
-      <h2>11. Contact Us</h2>
-      <p>
-        If you have any questions or concerns about this Privacy Policy, please
-        contact us at:
-      </p>
-      <ul>
-        <li>Email: [Insert Contact Email]</li>
-        <li>Phone: [Insert Contact Phone]</li>
-        <li>Address: [Insert Address]</li>
-      </ul>
-
     </div>
   );
 };

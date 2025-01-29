@@ -87,7 +87,7 @@ const HealthInputs = () => {
 
   return (
     <div className="health-inputs-container">
-      <h1 className="main-heading">Health Inputs</h1>
+      <h1 className="main-heading">Heart Attack Risk Predictor</h1>
 
       {/* Form */}
       <form onSubmit={handleSubmit}>

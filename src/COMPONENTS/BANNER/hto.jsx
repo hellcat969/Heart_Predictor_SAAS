@@ -1,5 +1,6 @@
 import React from "react";
 import './hto.css';
+import A11 from '../ASSESTS/A11.png';
 
 const Hto = () => {
   return (
@@ -7,13 +8,10 @@ const Hto = () => {
       <div className="content-section">
         <div className="preview-image">
           <img
-            src="./ASSESTS/A1.png"
+            src={A11}
             alt="Document Side-by-Side Preview"
             className="image"
           />
-          <p className="preview-text">
-            and gives you a <span className="highlight">side-by-side preview</span> where specific content is located within a document.
-          </p>
         </div>
       </div>
       <div className="info-section">
@@ -27,7 +25,7 @@ const Hto = () => {
           <li>Complement your doctor’s advice.</li>
         </ul>
         <div className="coming-soon">
-          <p><strong>H2O Diff Tool</strong> coming soon to <strong>h2oGPTe</strong></p>
+          <p><strong>More AI Tools</strong> coming soon to <strong>Health Guard AI</strong></p>
           <button className="learn-more">Learn More</button>
         </div>
       </div>

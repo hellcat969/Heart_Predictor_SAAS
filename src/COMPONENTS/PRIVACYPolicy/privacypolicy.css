@@ -1,6 +1,8 @@
 /* src/PrivacyPolicy.css */
 .privacy-policy-container {
-    margin: 0 auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
     padding: 50px 60px 60px 60px;
     
     background-color: #ffffff;
