@@ -1,6 +1,10 @@
 .noteheading{
-    
+    padding-left: 80px;
+    padding-right: 80px;
+    color: #ff005d;
 }
 .notepara{
-    padding:  0px 50px 50px 50px ;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
 }

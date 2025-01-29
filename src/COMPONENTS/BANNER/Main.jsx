@@ -3,6 +3,7 @@ import './Main.css'
 // import HealthInputs from './Options'
 import Note from './Note'
 import Noteone from './Noteone'
+import Hto from './hto'
 // import Maintow  from './Maintwo'
 
 const Main = () => {
@@ -13,6 +14,7 @@ const Main = () => {
 
 </main>
 <Noteone/>
+<Hto/>
 
 <Note/>
 
