@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import "./Footer.css";
 import { Link } from 'react-router-dom';
 import LA from '../ASSESTS/LA.png';
@@ -15,13 +15,13 @@ const Footer = () => {
           />
           <h4 className="brand-name">INBIO</h4>
           <div className="social-icons">
-            <a href="#" className="social-icon">
+            <a href="https://www.facebook.com/p/Chaudhary-Sarmad-100094077980472/" className="social-icon">
               <FaFacebookF />
             </a>
-            <a href="#" className="social-icon">
-              <FaTwitter />
+            <a href="https://github.com/hellcat969" className="social-icon">
+              <FaGithub />
             </a>
-            <a href="#" className="social-icon">
+            <a href="https://www.linkedin.com/feed/" className="social-icon">
               <FaLinkedinIn />
             </a>
           </div>
@@ -54,7 +54,7 @@ const Footer = () => {
           <Link to="https://apidog.com/?utm_source=google_search&utm_medium=g&utm_campaign=18544428894&utm_content=175249599560&utm_term=apidog%20open%20source&gad_source=1&gclid=Cj0KCQiAwOe8BhCCARIsAGKeD56Hd29i4Gzjj4iKeut9dXXmm7u9_DtGdwWaSM1tS0cpAVdKtG_1keIaAkS4EALw_wcB" className='navitems'><li> Documentation</li></Link>
           <Link to="https://wso2.com/api-manager/?utm_source=go&utm_medium=cpc&utm_campaign=go_cpc_uk_apim_generic_250116&gad_source=1" className='navitems'><li> Authentication</li></Link>
           <Link to="https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Howto/Write_an_api_reference" className='navitems'><li> API Reference</li></Link>
-          <Link to="#" className='navitems'><li> Support</li></Link>
+          <Link to="https://academy.postman.com/postman-api-fundamentals-student-expert-certification-1" className='navitems'><li> Postman API</li></Link>
           <Link to="https://opensource.org/" className='navitems'><li> Open Source</li></Link>
           </ul>
         </div>
