@@ -1,5 +1,5 @@
 import React from "react";
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { FaFacebookF, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import "./Footer.css";
 import { Link } from 'react-router-dom';
 import LA from '../ASSESTS/LA.png';
