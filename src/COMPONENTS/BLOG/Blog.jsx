@@ -13,6 +13,26 @@ import A7 from '../ASSESTS/A7.png';
 import A8 from '../ASSESTS/A8.png';
 import A9 from '../ASSESTS/A9.png';
 import A10 from '../ASSESTS/A10.png';
+import A11 from '../ASSESTS/A11.png';
+import A12 from '../ASSESTS/A12.png';
+import A13 from '../ASSESTS/A13.png';
+import A14 from '../ASSESTS/A14.png';
+import A15 from '../ASSESTS/A15.png';
+import A16 from '../ASSESTS/A16.png';
+import A17 from '../ASSESTS/A17.png';
+import A18 from '../ASSESTS/A18.png';
+import A19 from '../ASSESTS/A19.png';
+import A20 from '../ASSESTS/A20.png';
+import A21 from '../ASSESTS/A21.png';
+import A22 from '../ASSESTS/A22.png';
+import A23 from '../ASSESTS/A23.png';
+import A24 from '../ASSESTS/A24.png';
+import A25 from '../ASSESTS/A25.png';
+import A26 from '../ASSESTS/A26.png';
+import A27 from '../ASSESTS/A27.png';
+import A28 from '../ASSESTS/A28.png';
+import A29 from '../ASSESTS/A29.png';
+import A30 from '../ASSESTS/A30.png';
 
 const BlogPage = () => {
   // Blog data with unique IDs for each blog
@@ -76,6 +96,126 @@ const BlogPage = () => {
       title: 'The Role of Sleep in Heart Health: Are You Getting Enough?',
       image: A10,
       link: '/blog/10',
+    },
+    {
+      id: 11,
+      title: 'Revolutionizing Heart Health: How AI is Transforming Cardiovascular Care',
+      image: A11,
+      link: '/blog/11',
+    },
+    {
+      id: 12,
+      title: 'Wearable Tech for Heart Health: The Future of Real-Time Monitoring',
+      image: A12,
+      link: '/blog/12',
+    },
+    {
+      id: 13,
+      title: 'Predictive Analytics in Cardiology: Forecasting Heart Disease Risks with Machine Learning',
+      image: A13,
+      link: '/blog/13',
+    },
+    {
+      id: 14,
+      title: 'Digital Twin Technology in Heart Health: A Virtual Revolution in Treatment',
+      image: A14,
+      link: '/blog/14',
+    },
+    {
+      id: 15,
+      title: 'Blockchain and Data Privacy in Cardiovascular Research: Unlocking New Possibilities',
+      image: A15,
+      link: '/blog/15',
+    },
+    {
+      id: 16,
+      title: 'IoT-Enabled Devices: A New Era of Heart Health Management at Home',
+      image: A16,
+      link: '/blog/16',
+    },
+    {
+      id: 17,
+      title: 'The Role of Genomics and Precision Medicine in Heart Disease Prevention',
+      image: A17,
+      link: '/blog/17',
+    },
+    {
+      id: 18,
+      title: 'Smartphone Applications for Heart Health: How Mobile Technology Saves Lives',
+      image: A18,
+      link: '/blog/18',
+    },
+    {
+      id: 19,
+      title: 'Deep Learning Algorithms for Early Detection of Cardiac Anomalies',
+      image: A19,
+      link: '/blog/19',
+    },
+    {
+      id: 20,
+      title: 'Telemedicine and Remote Cardiac Care: Enhancing Accessibility and Outcomes',
+      image: A20,
+      link: '/blog/20',
+    },
+    {
+      id: 21,
+      title: 'AI-Driven Fitness: How Artificial Intelligence Can Personalize Exercise Plans for Heart Health',
+      image: A21,
+      link: '/blog/21',
+    },
+    {
+      id: 22,
+      title: 'Predicting Heart Disease Risk: The Role of AI in Analyzing Exercise and Lifestyle Data',
+      image: A22,
+      link: '/blog/22',
+    },
+    {
+      id: 23,
+      title: 'Using AI to Monitor Heart Rate During Exercise: Enhancing Safety and Performance',
+      image: A23,
+      link: '/blog/23',
+    },
+    {
+      id: 24,
+      title: 'AI and Heart Health: How Machine Learning Models Can Optimize Exercise for Cardiovascular Recovery',
+      image: A24,
+      link: '/blog/24',
+    },
+    {
+      id: 25,
+      title: 'The Future of Heart Health: Combining Wearable Technology and AI to Revolutionize Cardiovascular Fitness',
+      image: A25,
+      link: '/blog/25',
+    },
+    {
+      id: 26,
+      title: 'The Role of Artificial Intelligence in Early Disease Detection: Transforming Patient Outcomes',
+      image: A26,
+      link: '/blog/26',
+    },
+    {
+      id: 27,
+      title: 'AI-Powered Personalized Medicine: The Future of Tailored Healthcare',
+      image: A27,
+      link: '/blog/27',
+    },
+    {
+      id: 28,
+      title: 'Revolutionizing Drug Discovery: How AI is Accelerating the Development of New Medicines',
+      image: A28,
+      link: '/blog/28',
+    },
+    {
+      id: 29,
+      title: 'The Impact of AI on Medical Imaging: From Diagnosis to Prognosis',
+      image: A29,
+      link: '/blog/29',
+    },
+    {
+      id: 30,
+      title: 'Ethical and Regulatory Challenges of Using AI in Healthcare',
+      image: A30,
+      link: '/blog/30',
     },
   ];
 

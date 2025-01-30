@@ -1,6 +1,7 @@
 import React from "react";
 import './hto.css';
 import A11 from '../ASSESTS/A11.png';
+import { Link } from "react-router-dom";
 
 const Hto = () => {
   return (
@@ -25,9 +26,11 @@ const Hto = () => {
           <li>Complement your doctor’s advice.</li>
         </ul>
         <div className="coming-soon">
-          <p><strong>More AI Tools</strong> coming soon to <strong>Health Guard AI</strong></p>
-          <button className="learn-more">Learn More</button>
-        </div>
+  <p><strong>Check Your</strong> Heart Health <strong>Right Now!</strong></p>
+  <Link to="/pr">
+    <button className="learn-more">Head to Predictor</button>
+  </Link>
+</div>
       </div>
     </div>
   );

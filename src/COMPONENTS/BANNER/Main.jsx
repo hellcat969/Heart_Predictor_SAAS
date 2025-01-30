@@ -4,6 +4,7 @@ import './Main.css'
 import Note from './Note'
 import Noteone from './Noteone'
 import Hto from './hto'
+import SupportOpenSource from './buto'
 // import Maintow  from './Maintwo'
 
 const Main = () => {
@@ -15,7 +16,7 @@ const Main = () => {
 </main>
 <Noteone/>
 <Hto/>
-
+<SupportOpenSource/>
 <Note/>
 
    </>

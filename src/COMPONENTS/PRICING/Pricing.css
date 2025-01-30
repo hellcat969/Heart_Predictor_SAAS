@@ -1,7 +1,7 @@
 /* General Section */
 .pricing-section {
 	text-align: center;
-	/* padding: 3rem; */
+	padding: 1rem; 
 	background-color: #ffffff; /* Black background */
 	color: #3df500; 
   }
@@ -103,10 +103,42 @@
 	text-align: center;
 	font-weight: lighter;
 	transition: background-color 0.3s ease;
+	text-decoration: none ;
   }
   
   .plan-button:hover {
 	color: #ff005d; /* Slightly darker yellow */
 	background-color: #d1d1d1;
+  }
+  .pricing-container {
+	margin-bottom: 50px;
+	margin-top: 50px;
+	margin-left: 70px;
+	margin-right: topx;
+	padding: 20px;
+	font-family: Arial, sans-serif;
+	line-height: 1.6;
+	background-color: #f9f9f9;
+	border-radius: 8px;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1, h2, h3, h4 {
+	color: #333;
+  }
+  
+  ul {
+	list-style-type: disc;
+	margin-left: 20px;
+  }
+  
+  pre {
+	background-color: #eee;
+	padding: 10px;
+	border-radius: 5px;
+	overflow-x: auto;
+  }
+  .plan-button-link {
+	text-decoration: none;
   }
   
