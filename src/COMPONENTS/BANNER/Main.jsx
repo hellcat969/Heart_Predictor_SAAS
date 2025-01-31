@@ -1,14 +1,12 @@
-import React from 'react'
-import './Main.css'
-import Note from './Note'
-import Noteone from './Noteone'
-import Hto from './hto'
-import Buto from './Buto'
-import SupportOpenSource from './Buto'
-import { Link } from "react-router-dom";
+import React from 'react';
+import './Main.css';
+import Note from './Note';
+import Noteone from './Noteone';
+import Hto from './hto';
+import Buto from './buto';  // Ensure this import is correct
+import { Link } from 'react-router-dom';
 
 const Main = () => {
-
   const scrollToSection = () => {
     const section = document.getElementById('apiSection');
     if (section) {
@@ -17,7 +15,6 @@ const Main = () => {
       window.scrollTo({ top: y, behavior: 'smooth' });
     }
   };
-
 
   return (
     <>
@@ -39,15 +36,16 @@ const Main = () => {
 
       <Noteone />
       <Hto />
+      {/* If you want to render SupportOpenSource, ensure it's properly imported */}
       {/* <SupportOpenSource /> */}
 
       {/* The target section to scroll to */}
       <div id="apiSection">
-        <Buto />
+        <Buto />  {/* This renders the Buto component */}
       </div>
       <Note />
     </>
-  )
+  );
 }
 
 export default Main;
