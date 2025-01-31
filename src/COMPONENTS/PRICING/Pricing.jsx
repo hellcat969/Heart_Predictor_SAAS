@@ -78,7 +78,7 @@ With a straightforward integration process and comprehensive documentation, the 
               <p className="plan-rate-limit">{plan.rateLimits}</p>
             </div>
             <a
-              href="https://rapidapi.com/hellcat969/api/diabetes-detector-ai"
+              href="https://rapidapi.com/hellcat969/api/heart-attack-risk-predictor-api"
               target="_blank"
               rel="noopener noreferrer"
               className="plan-button-link"
