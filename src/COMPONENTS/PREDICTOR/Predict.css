@@ -102,47 +102,46 @@
 	outline-offset: 3px;
   }
   
-  /* Mobile Styles */
-  @media screen and (max-width: 768px) {
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
 	.health-inputs-container {
-	  padding: 15px;
-	  margin-top: 20px;
+		padding: 15px;
+		margin-top: 20px;
 	}
-  
+
 	.main-heading {
-	  font-size: 30px;
-	  margin-bottom: 15px;
+		font-size: 30px;
+		margin-bottom: 15px;
 	}
-  
+
 	.input-group label {
-	  font-size: 18px;
-	  font-weight: bold;
-	  color: #000000;
-	  margin-bottom: 10px;
-	  text-align: center;
-	  width: 100%;
+		font-size: 18px;
+		font-weight: bold;
+		color: #000000;
+		margin-bottom: 10px;
+		text-align: center;
+		width: 100%;
 	}
-  
+
 	.input-group input[type="text"],
 	.input-group input[type="radio"] {
-	  font-size: 12px;
-	  padding: 8px;
+		font-size: 12px;
+		padding: 8px;
 	}
-  
+
 	.row-inputs {
-	  flex-direction: column;
-	  gap: 15px;
+		flex-direction: column;
+		gap: 15px;
 	}
-  
+
 	.row-inputs .input-group {
-	  width: 100%;
+		width: 100%;
 	}
-  
+
 	.button-container button {
-	  width: 100%;
-	  padding: 12px 20px;
-	  font-size: 16px;
-	  margin-bottom: 10px;
+		width: 100%;
+		padding: 12px 20px;
+		font-size: 16px;
+		margin-bottom: 10px;
 	}
-  }
-  
+}

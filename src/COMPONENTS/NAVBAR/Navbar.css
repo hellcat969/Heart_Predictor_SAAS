@@ -1,11 +1,9 @@
+/* Main Navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 70px;
-  padding-right: 70px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  padding: 20px 50px;
   background-color: #1a1a1a;
   border-bottom: 1px solid #ccc;
 }
@@ -19,7 +17,6 @@
 .items ul {
   display: flex;
   list-style: none;
-  font-weight: bold;
   margin: 0;
   padding: 0;
 }
@@ -27,28 +24,38 @@
 .navitems {
   text-decoration: none;
   color: #ececec;
-  margin: 0 10px;
+  margin: 0 15px;
+  font-size: 16px;
+  font-family: 'Arial', sans-serif;
+  transition: color 0.3s;
 }
 
 .navitems li {
   cursor: pointer;
 }
 
+.navitems li:hover {
+  color: #ff005d;
+}
+
 /* Signup Button */
 .signup-btn {
-  padding: 10px 15px;
-  margin-left: 9px;
+  padding: 10px 20px;
+  margin-left: 15px;
   background-color: #ff005d;
   color: #fff;
   border: none;
   border-radius: 5px;
   cursor: pointer;
   font-size: 16px;
-  transition: background-color 0.3s;
+  font-weight: 600;
+  font-family: 'Arial', sans-serif;
+  transition: background-color 0.3s, transform 0.2s;
 }
 
 .signup-btn:hover {
-  background-color: #ff005d;
+  background-color: #e6004c;
+  transform: scale(1.05);
 }
 
 /* Hamburger Menu */
@@ -59,10 +66,11 @@
 }
 
 .hamburger .line {
-  width: 25px;
+  width: 30px;
   height: 3px;
-  background-color: #333;
-  margin: 3px 0;
+  background-color: #fff;
+  margin: 5px 0;
+  transition: all 0.3s;
 }
 
 /* Drawer Menu */
@@ -72,11 +80,13 @@
   right: -100%;
   width: 250px;
   height: 100%;
-  background-color: #fff;
+  background-color: #1a1a1a;
   box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
-  transition: right 0.3s ease;
+  transition: right 0.3s ease-in-out;
   padding: 20px;
   z-index: 100;
+  display: flex;
+  flex-direction: column;
 }
 
 .drawer.open {
@@ -92,15 +102,30 @@
   margin: 15px 0;
 }
 
-.drawer ul li a {
+.drawer ul li .link {
   text-decoration: none;
-  color: #333;
+  color: #ececec;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Arial', sans-serif;
+  transition: color 0.3s;
+}
+
+.drawer ul li .link:hover {
+  color: #ff005d;
 }
 
 /* Drawer Button */
 .drawer-btn {
-  display: block;
-  margin: 20px auto;
+  padding: 10px;
+  background-color: #ff005d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
 }
 
 /* Overlay for Drawer */
@@ -112,18 +137,77 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 50;
+  display: none;
+}
+
+.overlay.active {
+  display: block;
 }
 
 /* Responsive Styling */
-@media (max-width: 768px) {
-  .items ul {
-      display: none;
+@media (max-width: 992px) {
+  .navbar {
+    padding: 15px 30px;
+    color: #fff;
   }
+
+  .navitems {
+    display: none; /* Hide navbar items in mobile view */
+    font-size: 16px;
+  }
+
   .hamburger {
-      display: flex;
+    display: flex;
+  }
+
+  .signup-btn {
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Arial', sans-serif;
+    background-color: #ff005d;
+  }
+
+  .signup-btn:hover {
+    background-color: #e6004c;
+    transform: scale(1.05);
+  }
+
+  /* When hamburger menu is clicked, show drawer */
+  .drawer.open {
+    display: flex;
+    right: 0;
   }
 }
 
-.navitems li:hover {
-  color: #ff005d;
+@media (max-width: 768px) {
+  .navbar {
+    padding: 10px 20px;
+  }
+
+  .signup-btn {
+    display: none;
+  }
+
+  .drawer {
+    width: 200px;
+  }
+
+  .drawer ul li .link {
+    font-size: 16px;
+    color: #ccc;
+    font-family: 'Arial', sans-serif;
+    font-weight: 600;
+    transition: color 0.3s;
+  }
+
+  .drawer ul li .link:hover {
+    color: #ff005d;
+  }
+
+  /* For smaller screens, show the overlay when drawer is open */
+  .overlay.active {
+    display: block;
+  }
 }
+

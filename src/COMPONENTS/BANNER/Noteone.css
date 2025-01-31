@@ -33,3 +33,41 @@
     justify-content: center;
     text-align: center; /* Ensures text is centered */
 }
+
+/* Responsive Styling */
+@media (max-width: 992px) {
+	.noteone {
+	  flex-direction: column; /* Stack the content vertically */
+	  padding: 40px;
+	  margin-left: 20px;
+	  margin-right: 20px;
+	}
+  
+	.noteone-left,
+	.noteone-right {
+	  width: 100%; /* Make both sections take full width */
+	}
+  
+	.noteone-left p,
+	.noteone-right p {
+	  font-size: 14px; /* Adjust font size for better readability on smaller screens */
+	}
+  
+	.noteone-right h2,
+	.noteone-left h2 {
+	  font-size: 18px; /* Adjust heading size */
+	}
+  }
+  
+  @media (max-width: 768px) {
+	.noteone-left p,
+	.noteone-right p {
+	  font-size: 12px; /* Further adjust font size */
+	}
+  
+	.noteone-right h2,
+	.noteone-left h2 {
+	  font-size: 16px; /* Further adjust heading size */
+	}
+  }
+  

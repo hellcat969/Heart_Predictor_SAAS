@@ -1,19 +1,18 @@
+/* Base Styles */
 .container {
   display: flex;
   justify-content: space-between;
-  padding-left: 70px;
-  padding-right: 40px;
-  padding-top: 70px;
-  padding-bottom: 70px;
+  align-items: center;
+  padding: 70px 40px;
   background-color: #f9f9f9;
 }
 
 .content-section {
   width: 50%;
-  position: relative;
   display: flex;
   justify-content: center; /* Center the image horizontally */
   align-items: center; /* Center the image vertically */
+  text-align: center; /* Center text if needed */
 }
 
 .preview-image {
@@ -32,13 +31,14 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: flex-start;
+  text-align: left;
 }
 
 .info-section h1 {
   font-size: 32px;
   color: #333;
   margin-bottom: 20px;
-  text-align: left;
 }
 
 .highlight-title {
@@ -79,8 +79,64 @@
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s;
+  align-self: center; /* Center button for smaller screens */
 }
 
 .learn-more:hover {
   background-color: #ff90b9;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+  .container {
+    flex-direction: column;
+    align-items: center; /* Center everything */
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .content-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .info-section {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+
+  .info-section h1 {
+    font-size: 28px;
+  }
+
+  .info-section ul {
+    padding: 0;
+    text-align: center;
+  }
+
+  .info-section ul li {
+    font-size: 16px;
+  }
+
+  .learn-more {
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .info-section h1 {
+    font-size: 24px;
+  }
+
+  .info-section ul li {
+    font-size: 14px;
+  }
+
+  .learn-more {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
 }
