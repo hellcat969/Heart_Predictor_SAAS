@@ -11,7 +11,7 @@ const SupportOpenSource = () => {
         </p>
       </div>
       <div className="support-button">
-  <a href="https://rapidapi.com/hellcat969/api/diabetes-detector-ai/playground/apiendpoint_a5d0a512-1240-487f-92e2-e40c6fd6c00f">
+  <a href="https://rapidapi.com/hellcat969/api/heart-attack-risk-predictor-api">
     <button className="cta-button">See Pricing Plans</button>
   </a>
 </div>
