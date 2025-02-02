@@ -20,8 +20,8 @@ const Main = () => {
     <>
       <main className='main'>
         <div className='divmain'>
-          <h1>Make your website better. Instantly.</h1>
-          <p>Over 220,000 websites use crazy egg to improve what's working. Fix what isn't and test new ideas.</p>
+          <h1>Assess Your Heart Risk. in Seconds!.</h1>
+          <p>"Our AI-powered Heart Predictor analyzes key health parameters to assess your heart risk instantly, helping you take proactive steps for a healthier future."</p>
 
           <div className="button-container">
             <Link to="/blog" className="button button-black">
