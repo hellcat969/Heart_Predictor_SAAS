@@ -36,3 +36,85 @@
     padding-left: 20px;
   }
   
+  
+/* Responsive Design */
+@media (max-width: 1200px) {
+  .privacy-policy-container {
+      margin-left: 30px;
+      margin-right: 30px;
+      padding: 40px 50px 50px 50px;
+  }
+
+  h1 {
+      font-size: 2rem;
+  }
+
+  .privacy-policy-section h2 {
+      font-size: 1.25rem;
+  }
+
+  .privacy-policy-section p,
+  .privacy-policy-section ul {
+      font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .privacy-policy-container {
+      margin-left: 20px;
+      margin-right: 20px;
+      padding: 30px 40px 40px 40px;
+  }
+
+  h1 {
+      font-size: 1.75rem;
+  }
+
+  .privacy-policy-section h2 {
+      font-size: 1.1rem;
+  }
+
+  .privacy-policy-section p,
+  .privacy-policy-section ul {
+      font-size: 0.9rem;
+  }
+
+  /* Fix for mobile alignment of list items */
+  .privacy-policy-section ul {
+      padding-left: 15px; /* Reduce padding on mobile for better alignment */
+  }
+
+  .privacy-policy-section ul li {
+      list-style-position: inside; /* Ensure the bullet point appears inside the padding */
+  }
+}
+
+@media (max-width: 480px) {
+  .privacy-policy-container {
+      margin-left: 15px;
+      margin-right: 15px;
+      padding: 20px 30px 30px 30px;
+  }
+
+  h1 {
+      font-size: 1.5rem;
+  }
+
+  .privacy-policy-section h2 {
+      font-size: 1rem;
+  }
+
+  .privacy-policy-section p,
+  .privacy-policy-section ul {
+      font-size: 0.85rem;
+  }
+
+  /* Fix for mobile alignment of list items */
+  .privacy-policy-section ul {
+      padding-left: 10px; /* Further reduce padding on very small screens */
+  }
+
+  .privacy-policy-section ul li {
+      list-style-position: inside; /* Ensure the bullet point appears inside the padding */
+  }
+}

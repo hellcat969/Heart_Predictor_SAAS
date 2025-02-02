@@ -93,3 +93,65 @@
 .link-column a:hover {
   color: #ff005d;
 }
+/* Responsive Design */
+@media (max-width: 992px) {
+  .footer {
+    flex-direction: column;
+    padding: 40px 20px;
+    align-items: center; /* Center footer content */
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px; /* Add spacing between sections */
+  }
+
+  .link-column {
+    align-items: center; /* Center align the link columns */
+    gap: 15px; /* Adjust the gap between items */
+  }
+
+  .link-title {
+    font-size: 18px; /* Smaller link title font for mobile */
+  }
+
+  .link-column a {
+    font-size: 16px; /* Smaller link font for mobile */
+  }
+
+  .social-icons {
+    justify-content: center;
+    margin-top: 20px; /* Add space between social icons and footer content */
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 30px 15px;
+  }
+
+  .footer-links {
+    gap: 15px;
+  }
+
+  .link-column {
+    gap: 10px; /* Reduce the gap between items */
+  }
+
+  .link-title {
+    font-size: 16px; /* Further adjust link title font size */
+  }
+
+  .link-column a {
+    font-size: 14px; /* Further adjust link font size */
+  }
+
+  .social-icon {
+    width: 35px;
+    height: 35px;
+    font-size: 14px; /* Adjust icon size */
+  }
+}
