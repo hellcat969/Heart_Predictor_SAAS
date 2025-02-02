@@ -63,6 +63,7 @@
   height: 3px;
   background-color: #333;
   margin: 3px 0;
+  color: #ececec;
 }
 
 /* Drawer Menu */
@@ -101,6 +102,7 @@
 .drawer-btn {
   display: block;
   margin: 20px auto;
+  color: #ececec;
 }
 
 /* Overlay for Drawer */
