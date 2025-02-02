@@ -1,6 +1,6 @@
 import React from "react";
 import './hto.css';
-import A11 from '../ASSESTS/A11.png';
+import A11 from '../ASSESTS/A11.webp';
 import { Link } from "react-router-dom";
 
 const Hto = () => {

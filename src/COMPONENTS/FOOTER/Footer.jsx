@@ -2,7 +2,7 @@ import React from "react";
 import { FaFacebookF, FaLinkedinIn, FaGithub } from "react-icons/fa";
 import "./Footer.css";
 import { Link } from 'react-router-dom';
-import LA from '../ASSESTS/LA.png';
+import LA from '../ASSESTS/LA.webp';
 const Footer = () => {
   return (
     <footer className="footer">

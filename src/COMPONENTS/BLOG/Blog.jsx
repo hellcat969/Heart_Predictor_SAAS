@@ -3,36 +3,36 @@ import { Link } from 'react-router-dom'; // Import Link from React Router
 import './Blog.css';
 
 // Import local images
-import A1 from '../ASSESTS/A1.png';
-import A2 from '../ASSESTS/A3.png';
-import A3 from '../ASSESTS/A4.png';
-import A4 from '../ASSESTS/A5.png';
-import A5 from '../ASSESTS/A2.png';
-import A6 from '../ASSESTS/A6.png';
-import A7 from '../ASSESTS/A7.png';
-import A8 from '../ASSESTS/A8.png';
-import A9 from '../ASSESTS/A9.png';
-import A10 from '../ASSESTS/A10.png';
-import A11 from '../ASSESTS/A11.png';
-import A12 from '../ASSESTS/A12.png';
-import A13 from '../ASSESTS/A13.png';
-import A14 from '../ASSESTS/A14.png';
-import A15 from '../ASSESTS/A15.png';
-import A16 from '../ASSESTS/A16.png';
-import A17 from '../ASSESTS/A17.png';
-import A18 from '../ASSESTS/A18.png';
-import A19 from '../ASSESTS/A19.png';
-import A20 from '../ASSESTS/A20.png';
-import A21 from '../ASSESTS/A21.png';
-import A22 from '../ASSESTS/A22.png';
-import A23 from '../ASSESTS/A23.png';
-import A24 from '../ASSESTS/A24.png';
-import A25 from '../ASSESTS/A25.png';
-import A26 from '../ASSESTS/A26.png';
-import A27 from '../ASSESTS/A27.png';
-import A28 from '../ASSESTS/A28.png';
-import A29 from '../ASSESTS/A29.png';
-import A30 from '../ASSESTS/A30.png';
+import A1 from '../ASSESTS/A1.webp';
+import A2 from '../ASSESTS/A3.webp';
+import A3 from '../ASSESTS/A4.webp';
+import A4 from '../ASSESTS/A5.webp';
+import A5 from '../ASSESTS/A2.webp';
+import A6 from '../ASSESTS/A6.webp';
+import A7 from '../ASSESTS/A7.webp';
+import A8 from '../ASSESTS/A8.webp';
+import A9 from '../ASSESTS/A9.webp';
+import A10 from '../ASSESTS/A10.webp';
+import A11 from '../ASSESTS/A11.webp';
+import A12 from '../ASSESTS/A12.webp';
+import A13 from '../ASSESTS/A13.webp';
+import A14 from '../ASSESTS/A14.webp';
+import A15 from '../ASSESTS/A15.webp';
+import A16 from '../ASSESTS/A16.webp';
+import A17 from '../ASSESTS/A17.webp';
+import A18 from '../ASSESTS/A18.webp';
+import A19 from '../ASSESTS/A19.webp';
+import A20 from '../ASSESTS/A20.webp';
+import A21 from '../ASSESTS/A21.webp';
+import A22 from '../ASSESTS/A22.webp';
+import A23 from '../ASSESTS/A23.webp';
+import A24 from '../ASSESTS/A24.webp';
+import A25 from '../ASSESTS/A25.webp';
+import A26 from '../ASSESTS/A26.webp';
+import A27 from '../ASSESTS/A27.webp';
+import A28 from '../ASSESTS/A28.webp';
+import A29 from '../ASSESTS/A29.webp';
+import A30 from '../ASSESTS/A30.webp';
 
 const BlogPage = () => {
   // Blog data with unique IDs for each blog
