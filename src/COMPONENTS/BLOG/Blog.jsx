@@ -33,6 +33,7 @@ import A27 from '../ASSESTS/A27.webp';
 import A28 from '../ASSESTS/A28.webp';
 import A29 from '../ASSESTS/A29.webp';
 import A30 from '../ASSESTS/A30.webp';
+import A31 from '../ASSESTS/A31.webp';
 
 const BlogPage = () => {
   // Blog data with unique IDs for each blog
@@ -216,6 +217,12 @@ const BlogPage = () => {
       title: 'Ethical and Regulatory Challenges of Using AI in Healthcare',
       image: A30,
       link: '/blog/30',
+    },
+    {
+      id: 31,
+      title: 'How Artificial Intelligence is Changing Medicine',
+      image: A31,
+      link: '/blog/31',
     },
   ];
 
