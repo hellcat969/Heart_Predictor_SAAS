@@ -31,18 +31,18 @@ const Pricing = () => {
 
   return (
     <div className="pricing-container">
-      <h1>Heart Predictor API Pricing</h1>
+      <h1>Heart Attack Risk Detector API Pricing</h1>
       <p>
-      Our Heart Predictor API is a cutting-edge solution designed to provide precise heart disease risk predictions by utilizing advanced machine learning models. This powerful tool empowers developers to integrate predictive health analytics into their applications, enhancing the ability to deliver proactive healthcare solutions. By analyzing key health parameters such as age, blood pressure, cholesterol levels, smoking status, and other relevant factors, the API generates accurate assessments of heart disease risk, enabling users to take timely preventive measures.
+      Our Heart Attack Risk Detctor API is a cutting-edge solution designed to provide precise heart failure risk predictions by utilizing advanced machine learning algorithms. This powerful tool empowers developers to integrate predictive health analytics into their applications, enhancing the ability to deliver the active healthcare solutions. By analyzing key health parameters such as age, blood pressure, cholesterol levels, smoking status, and other relevant factors, the API generates accurate measurements of heart attack risk, enabling users to take timely preventive measures.
 
-The Heart Predictor API is built with scalability and security in mind, ensuring that sensitive health data is processed and transmitted safely. Its real-time prediction capability allows for seamless integration into applications that require instant results, such as fitness apps, telemedicine platforms, and wearable devices. The API’s robust machine learning algorithms ensure reliability and accuracy, making it an indispensable tool for developers aiming to build innovative health-focused solutions.
+This API is built with scalability and security in mind, ensuring that sensitive health data is processed and transmitted safely. Its real-time prediction capability allows for seamless integration into applications that require instant results, such as fitness apps, telemedicine platforms, and wearable devices. The API’s advanced machine learning algorithms ensure reliability and accuracy, making it an indispensable tool for developers aiming to build innovative health-focused solutions.
 
 With a straightforward integration process and comprehensive documentation, the Heart Predictor API is designed to be developer-friendly. It provides detailed guidance on how to send input parameters and retrieve predictions, enabling developers to incorporate health risk assessments into their software with ease. Whether for personalized health dashboards, remote patient monitoring, or even insurance risk assessments, this API opens up a wide range of possibilities for improving healthcare outcomes and fostering preventive care.
       </p>
       
       <h2>Key Features</h2>
       <ul>
-        <li>Accurate heart risk prediction</li>
+        <li>Accurate heart attack risk detection</li>
         <li>Easy integration</li>
         <li>Real-time results</li>
         <li>Secure and compliant</li>
@@ -90,7 +90,7 @@ With a straightforward integration process and comprehensive documentation, the 
       </div>
       
       <h2>How to Use It</h2>
-      <h3>Heart Attack Risk Predictor API</h3>
+      <h3>Heart Attack Risk Detector API</h3>
       <p>
         The Heart Attack Risk Predictor API predicts the likelihood of a heart attack using
         health parameters.
@@ -115,7 +115,7 @@ With a straightforward integration process and comprehensive documentation, the 
       
       <h4>2. /info</h4>
       <p>Method: GET</p>
-      <p>Description: Provides API details and parameters.</p>
+      <p>Description: Provides API is working or not.</p>
       
       <h3>Authentication</h3>
       <p>

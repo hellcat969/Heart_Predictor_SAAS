@@ -26,12 +26,12 @@
 .noteone-left p {
     display: flex;
     justify-content: center;
-    text-align: center; /* Ensures text is centered */
+    text-align: left; /* Ensures text is centered */
 }
 .noteone-right p {
     display: flex;
     justify-content: center;
-    text-align: center; /* Ensures text is centered */
+    text-align: left; /* Ensures text is centered */
 }
 
 /* Responsive Styling */

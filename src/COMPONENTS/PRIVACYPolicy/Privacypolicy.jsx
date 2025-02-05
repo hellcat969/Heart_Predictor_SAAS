@@ -8,7 +8,7 @@ const PrivacyPolicy = () => {
       <h1>Privacy Policy </h1>
       {/* <p><strong>Effective Date:</strong> 22-01-1025</p> */}
       <p>
-        Welcome to the Heart Attack Risk Predictor. Your privacy is critically
+        Welcome to the Heart Attack Risk Predictor AI. Your privacy is critically
         important to us. This Privacy Policy explains how we collect, use,
         disclose, and safeguard your information when you use our Website. By
         accessing or using the Website, you agree to the terms of this Privacy
@@ -20,7 +20,7 @@ const PrivacyPolicy = () => {
         <li>
           <strong>Personal Information:</strong> Information you provide
           directly, such as your name, email address, and any other details
-          required for creating an account or contacting us.
+          required for contacting us.
         </li>
         <li>
           <strong>Health Data:</strong> Information you input for risk
@@ -29,7 +29,7 @@ const PrivacyPolicy = () => {
           of providing you with accurate risk predictions.
         </li>
         <li>
-          <strong>Usage Data:</strong> Automatically collected information,
+          <strong>Data Usage:</strong> Automatically collected information,
           such as IP addresses, browser types, and device identifiers, to
           improve our Website’s functionality and user experience.
         </li>
@@ -79,12 +79,12 @@ const PrivacyPolicy = () => {
       <h2>5. User Rights</h2>
       <p>You have the following rights regarding your information:</p>
       <ul>
-        <li>Access your data and request a copy.</li>
-        <li>Correct inaccuracies in your personal or health data.</li>
+        <li>Check your data and request a copy.</li>
+        <li>Correct inaccuracy in your personal or health data.</li>
         <li>Request deletion of your data, subject to legal obligations.</li>
         <li>Withdraw consent for data processing at any time.</li>
       </ul>
-      <p>To exercise these rights, contact us at [Insert Contact Email].</p>
+      <p>To exercise these rights, contact us at [support@healthguardai.com].</p>
 
       <h2>6. Cookies and Tracking Technologies</h2>
       <p>
@@ -109,7 +109,7 @@ const PrivacyPolicy = () => {
       <h2>8. Superior Features</h2>
       <p>What makes our Website stand out:</p>
       <ul>
-        <li>AI-Powered Accuracy: Our advanced machine learning model ensures precise risk predictions.</li>
+        <li>AI-Powered Accurate Predictions: Our advanced machine learning model ensures correct risk predictions.</li>
         <li>User Anonymity: Your health data is anonymized immediately upon submission.</li>
         <li>End-to-End Encryption: All data transfers are encrypted.</li>
         <li>

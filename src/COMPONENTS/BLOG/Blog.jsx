@@ -34,37 +34,40 @@ import A28 from '../ASSESTS/A28.webp';
 import A29 from '../ASSESTS/A29.webp';
 import A30 from '../ASSESTS/A30.webp';
 import A31 from '../ASSESTS/A31.webp';
+import A32 from '../ASSESTS/A32.webp';
+
 
 const BlogPage = () => {
   // Blog data with unique IDs for each blog
   const blogs = [
     {
       id: 1,
-      title: '10 Early Signs of a Heart Problem You Should Never Ignore',
+      title: '10 Early Signs of a Heart Attack You Should Never Ignore',
+      desc : 'This is the snippet of this data article',
       image: A1,
       link: '/blog/1', 
     },
     {
       id: 2,
-      title: 'Heart Health in Your Hands: Simple Daily Habits to Lower Your Risk of a Heart Attack',
+      title: 'Heart Health in Your Hands: Simple Daily Habits to Lower Your Heart Attack Risk',
       image: A2,
       link: '/blog/2',
     },
     {
       id: 3,
-      title: 'The Connection Between Stress and Heart Attacks: How to Protect Yourself',
+      title: 'The Connection Between Stress and Heart Attack: How to Protect Yourself',
       image: A3,
       link: '/blog/3',
     },
     {
       id: 4,
-      title: 'Debunking 7 Common Myths About Heart Disease',
+      title: 'Debunking 7 Common Myths About Heart Attack',
       image: A4,
       link: '/blog/4',
     },
     {
       id: 5,
-      title: 'Superfoods for a Super Heart: The Ultimate Diet for Cardiovascular Health',
+      title: 'Superfoods for a Super Heart: The Ultimate Diet to stop Myocardial infarction',
       image: A5,
       link: '/blog/5',
     },
@@ -76,7 +79,7 @@ const BlogPage = () => {
     },
     {
       id: 7,
-      title: ' Are You at Risk? Top Risk Factors for Heart Disease You Should Know ',
+      title: ' Are You at Risk? Top Risk Factors for Myocardial infarction You Should Know ',
       image: A7,
       link: '/blog/7',
     },
@@ -100,7 +103,7 @@ const BlogPage = () => {
     },
     {
       id: 11,
-      title: 'Revolutionizing Heart Health: How AI is Transforming Cardiovascular Care',
+      title: 'Revolutionizing Heart Health: How AI is Stopping Myocardial infarction',
       image: A11,
       link: '/blog/11',
     },
@@ -112,7 +115,7 @@ const BlogPage = () => {
     },
     {
       id: 13,
-      title: 'Predictive Analytics in Cardiology: Forecasting Heart Disease Risks with Machine Learning',
+      title: 'Predictive Analytics in Cardiology: Forecasting Heart Attack Risks with Machine Learning',
       image: A13,
       link: '/blog/13',
     },
@@ -124,7 +127,7 @@ const BlogPage = () => {
     },
     {
       id: 15,
-      title: 'Blockchain and Data Privacy in Cardiovascular Research: Unlocking New Possibilities',
+      title: 'Blockchain and Data Privacy in Heart Attack Research: Unlocking New Possibilities',
       image: A15,
       link: '/blog/15',
     },
@@ -136,7 +139,7 @@ const BlogPage = () => {
     },
     {
       id: 17,
-      title: 'The Role of Genomics and Precision Medicine in Heart Disease Prevention',
+      title: 'The Role of Genomics and Precision Medicine in Heart Attack Prevention',
       image: A17,
       link: '/blog/17',
     },
@@ -148,7 +151,7 @@ const BlogPage = () => {
     },
     {
       id: 19,
-      title: 'Deep Learning Algorithms for Early Detection of Cardiac Anomalies',
+      title: 'Deep Learning Algorithms for Early Detection of Myocardial infarction',
       image: A19,
       link: '/blog/19',
     },
@@ -166,7 +169,7 @@ const BlogPage = () => {
     },
     {
       id: 22,
-      title: 'Predicting Heart Disease Risk: The Role of AI in Analyzing Exercise and Lifestyle Data',
+      title: 'Predicting Heart Attack Risk: The Role of AI in Analyzing Exercise and Lifestyle Data',
       image: A22,
       link: '/blog/22',
     },
@@ -178,7 +181,7 @@ const BlogPage = () => {
     },
     {
       id: 24,
-      title: 'AI and Heart Health: How Machine Learning Models Can Optimize Exercise for Cardiovascular Recovery',
+      title: 'AI and Heart Health: How Machine Learning Models Can Optimize Exercise for Myocardial infarction',
       image: A24,
       link: '/blog/24',
     },
@@ -220,9 +223,15 @@ const BlogPage = () => {
     },
     {
       id: 31,
-      title: 'How Artificial Intelligence is Changing Medicine',
+      title: 'How Artificial Intelligence is Saving Myocardial infarction',
       image: A31,
       link: '/blog/31',
+    },
+    {
+      id: 32,
+      title: 'How Artificial Intelligence is Saving Myocardial infarction',
+      image: A32,
+      link: '/blog/32',
     },
   ];
 

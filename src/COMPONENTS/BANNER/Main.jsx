@@ -20,8 +20,8 @@ const Main = () => {
     <>
       <main className='main'>
         <div className='divmain'>
-          <h1>Assess Your Heart Risk. in Seconds!.</h1>
-          <p>"Our AI-powered Heart Predictor analyzes key health parameters to assess your heart risk instantly, helping you take proactive steps for a healthier future."</p>
+          <h1>Assess Your Heart Attack Risk. in Seconds!</h1>
+          <p>"Our AI-powered Heart Attack Risk Predictor analyzes key health parameters to assess your heart failure risk instantly, helping you take active steps for a healthier future."</p>
 
           <div className="button-container">
             <Link to="/blog" className="button button-black">
