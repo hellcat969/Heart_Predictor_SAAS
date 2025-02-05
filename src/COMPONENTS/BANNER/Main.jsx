@@ -7,6 +7,7 @@ import Hto from './hto';
 import Buto from './buto';  // Ensure this import is correct
 import { Link } from 'react-router-dom';
 
+
 const Main = () => {
   const scrollToSection = () => {
     const section = document.getElementById('apiSection');
@@ -34,7 +35,7 @@ const Main = () => {
           </div>
         </div>
       </main>
-
+      
       <Noteone />
       <Predict/>
       
