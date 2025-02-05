@@ -2,6 +2,7 @@ import React from 'react';
 import './Main.css';
 import Note from './Note';
 import Noteone from './Noteone';
+import Predict from "../PREDICTOR/Predict";
 import Hto from './hto';
 import Buto from './buto';  // Ensure this import is correct
 import { Link } from 'react-router-dom';
@@ -36,6 +37,8 @@ const Main = () => {
       </main>
       
       <Noteone />
+      <Predict/>
+      
       <Hto />
       {/* If you want to render SupportOpenSource, ensure it's properly imported */}
       {/* <SupportOpenSource /> */}

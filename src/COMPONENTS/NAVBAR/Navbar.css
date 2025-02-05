@@ -1,95 +1,79 @@
-/* Main Navbar */
+/* Base Navbar Styles */
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 50px;
-  background-color: #1a1a1a;
-  border-bottom: 1px solid #ccc;
+  padding: 20px 40px;
+  background-color: #1a1a1a; /* Dark background */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Slightly darker shadow */
 }
 
-.logo {
-  font-size: 24px;
+.navbar .logo {
+  color: #ffffff; /* Logo text in white */
+  font-size: 22px;
   font-weight: bold;
-  color: #ff005d;
 }
 
-.items ul {
+/* Desktop Navigation */
+.desktop-items {
   display: flex;
+}
+
+.desktop-items ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
+  display: flex;
+  gap: 20px;
 }
 
-.navitems {
+.desktop-items ul .navitems {
   text-decoration: none;
-  color: #ececec;
-  margin: 0 15px;
+  color: #ffffff; /* White text for links */
   font-size: 16px;
-  font-family: 'Arial', sans-serif;
-  transition: color 0.3s;
+  transition: color 0.3s ease;
 }
 
-.navitems li {
-  cursor: pointer;
+.desktop-items ul .navitems:hover {
+  color: #ff005d; /* Highlight links on hover */
 }
 
-.navitems li:hover {
-  color: #ff005d;
+/* Desktop Buttons */
+.desktop-buttons {
+  display: flex;
+  gap: 10px;
 }
 
-/* Signup Button */
-.signup-btn {
-  padding: 10px 20px;
-  margin-left: 15px;
-  background-color: #ff005d;
-  color: #fff;
+.desktop-buttons .signup-btn {
+  background-color: #ff005d; /* Pinkish red background for buttons */
+  color: #ffffff;
+  padding: 8px 20px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 16px;
-  font-weight: 600;
-  font-family: 'Arial', sans-serif;
-  transition: background-color 0.3s, transform 0.2s;
+  transition: background-color 0.3s ease;
 }
 
-.signup-btn:hover {
-  background-color: #e6004c;
-  transform: scale(1.05);
+.desktop-buttons .signup-btn:hover {
+  background-color: #ff2e6b; /* Darker red on hover */
 }
 
-/* Hamburger Menu */
-.hamburger {
-  display: none;
-  flex-direction: column;
-  cursor: pointer;
-}
-
-.hamburger .line {
-  width: 30px;
-  height: 3px;
-  background-color: #333;
-  margin: 3px 0;
-}
-
-/* Drawer Menu */
+/* Mobile Drawer (Hidden by default) */
 .drawer {
+  display: none;
   position: fixed;
   top: 0;
-  right: -100%;
+  right: 0;
   width: 250px;
-  height: 100%;
-  background-color: #1a1a1a;
-  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.2);
-  transition: right 0.3s ease-in-out;
+  height: 100vh;
+  background-color: #1a1a1a; /* Dark background for drawer */
+  box-shadow: -4px 0 6px rgba(0, 0, 0, 0.3);
   padding: 20px;
-  z-index: 100;
-  display: flex;
-  flex-direction: column;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
 }
 
 .drawer.open {
-  right: 0;
+  transform: translateX(0);
+  display: block;
 }
 
 .drawer ul {
@@ -98,108 +82,57 @@
 }
 
 .drawer ul li {
-  margin: 15px 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #ffffff; /* White text for links */
+  transition: color 0.3s ease;
 }
 
-.drawer ul li .link {
-  text-decoration: none;
-  color: #ececec;
-  font-size: 18px;
-  font-weight: bold;
-  font-family: 'Arial', sans-serif;
-  transition: color 0.3s;
+.drawer ul li:hover {
+  color: #ff005d; /* Highlight links on hover */
 }
 
-.drawer ul li .link:hover {
-  color: #ff005d;
+/* Mobile Hamburger Menu */
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
 }
 
-/* Drawer Button */
-.drawer-btn {
-  display: block;
-  margin: 20px auto;
+.hamburger .line {
+  width: 25px;
+  height: 3px;
+  background-color: #ffffff; /* White lines for hamburger icon */
+  margin: 4px;
 }
 
-/* Overlay for Drawer */
+/* Overlay when drawer is open */
 .overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 50;
   display: none;
 }
 
 .overlay.active {
   display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7); /* Darker overlay background */
 }
 
-/* Responsive Styling */
+/* Responsive - Show Mobile Menu */
 @media (max-width: 992px) {
-  .navbar {
-    padding: 15px 30px;
-    color: #fff;
-  }
-
-  .navitems {
-    display: none; /* Hide navbar items in mobile view */
-    font-size: 16px;
+  .desktop-items,
+  .desktop-buttons {
+    display: none;
   }
 
   .hamburger {
     display: flex;
   }
 
-  .signup-btn {
-    padding: 8px 15px;
-    font-size: 14px;
-    font-weight: 600;
-    font-family: 'Arial', sans-serif;
-    background-color: #ff005d;
-  }
-
-  .signup-btn:hover {
-    background-color: #e6004c;
-    transform: scale(1.05);
-  }
-
-  /* When hamburger menu is clicked, show drawer */
-  .drawer.open {
-    display: flex;
-    right: 0;
-  }
-}
-
-@media (max-width: 768px) {
-  .navbar {
-    padding: 10px 20px;
-  }
-
-  .signup-btn {
-    display: none;
-  }
-
   .drawer {
-    width: 200px;
-  }
-
-  .drawer ul li .link {
-    font-size: 16px;
-    color: #ccc;
-    font-family: 'Arial', sans-serif;
-    font-weight: 600;
-    transition: color 0.3s;
-  }
-
-  .drawer ul li .link:hover {
-    color: #ff005d;
-  }
-
-  /* For smaller screens, show the overlay when drawer is open */
-  .overlay.active {
     display: block;
   }
 }
-
