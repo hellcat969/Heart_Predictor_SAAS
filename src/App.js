@@ -15,7 +15,7 @@ import Blog from "./COMPONENTS/BLOG/Blog";
 import BlogDetail from "./COMPONENTS/BLOG/BLOGDETAILS/Blogdetails";
 import PrivacyPolicy from "./COMPONENTS/PRIVACYPolicy/Privacypolicy";
 import AboutUs from "./COMPONENTS/ABOUTUS/AboutUs";
-import Predict from "./COMPONENTS/PREDICTOR/Predict";
+// import Predict from "./COMPONENTS/PREDICTOR/Predict";
 import Pricing from "./COMPONENTS/PRICING/Pricing";
 
 // Initialize Google Analytics
@@ -36,7 +36,7 @@ function App() {
   return (
     <>
       <Router>
-        <Analytics /> {/* Google Analytics Tracking */}
+        <Analytics />
         <Navbar />
         <Routes>
           <Route path="/" element={<Main />} />
@@ -44,7 +44,7 @@ function App() {
           <Route path="/blog/:id" element={<BlogDetail />} />
           <Route path="/privacy" element={<PrivacyPolicy />} />
           <Route path="/about" element={<AboutUs />} />
-          <Route path="/p" element={<Predict />} />
+          {/* <Route path="/p" element={<Predict />} /> */}
           <Route path="/pr" element={<Pricing />} />
         </Routes>
         <Footer />

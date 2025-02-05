@@ -1,11 +1,10 @@
-.noteheading{
-    padding-left: 80px;
-    padding-right: 80px;
+.noteheading {
+    padding: 0 40px; /* This will apply 40px padding to both left and right */
     color: #ff005d;
 }
-.notepara{
-    padding-left: 80px;
-    padding-right: 80px;
+
+.notepara {
+    padding: 0 40px; /* This will apply 40px padding to both left and right */
     text-align: left;
     margin-bottom: 50px;
 }
