@@ -56,9 +56,8 @@
   background-color: #ff2e6b; /* Darker red on hover */
 }
 
-/* Mobile Drawer (Hidden by default) */
+/* Mobile Drawer (Hidden by default, slides in when open) */
 .drawer {
-  display: none;
   position: fixed;
   top: 0;
   right: 0;
@@ -69,11 +68,11 @@
   padding: 20px;
   transform: translateX(100%);
   transition: transform 0.3s ease-in-out;
+  color: #ffffff;
 }
 
 .drawer.open {
   transform: translateX(0);
-  display: block;
 }
 
 .drawer ul {
@@ -108,17 +107,20 @@
 
 /* Overlay when drawer is open */
 .overlay {
-  display: none;
-}
-
-.overlay.active {
-  display: block;
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.7); /* Darker overlay background */
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}
+
+.overlay.active {
+  opacity: 1;
+  pointer-events: all;
 }
 
 /* Responsive - Show Mobile Menu */
@@ -130,9 +132,5 @@
 
   .hamburger {
     display: flex;
-  }
-
-  .drawer {
-    display: block;
   }
 }

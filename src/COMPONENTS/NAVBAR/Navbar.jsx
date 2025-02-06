@@ -5,8 +5,14 @@ import './Navbar.css';
 const Navbar = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
+  // Function to toggle the mobile drawer
   const toggleDrawer = () => {
-    setIsDrawerOpen(!isDrawerOpen);
+    setIsDrawerOpen((prev) => !prev);
+  };
+
+  // Function to close the drawer
+  const closeDrawer = () => {
+    setIsDrawerOpen(false);
   };
 
   return (
@@ -17,12 +23,11 @@ const Navbar = () => {
         {/* Desktop Navigation Items */}
         <div className="desktop-items">
           <ul>
-            <Link to="/" className="navitems"><li>Home</li></Link>
-            {/* <Link to="/p" className="navitems"><li>Predictors</li></Link> */}
-            <Link to="/blog" className="navitems"><li>Blog</li></Link>
-            <Link to="/privacy" className="navitems"><li>Privacy</li></Link>
-            <Link to="/about" className="navitems"><li>About Us</li></Link>
-            <Link to="/pr" className="navitems"><li>API Pricing</li></Link>
+            <li><Link to="/" className="navitems">Home</Link></li>
+            <li><Link to="/blog" className="navitems">Blog</Link></li>
+            <li><Link to="/privacy" className="navitems">Privacy</Link></li>
+            <li><Link to="/about" className="navitems">About Us</Link></li>
+            <li><Link to="/pr" className="navitems">API Pricing</Link></li>
           </ul>
         </div>
 
@@ -43,19 +48,18 @@ const Navbar = () => {
       {/* Mobile Drawer Menu */}
       <div className={`drawer ${isDrawerOpen ? 'open' : ''}`}>
         <ul>
-        <Link to="/" className="navitems"><li>Home</li></Link>
-            {/* <Link to="/p" className="navitems"><li>Predictors</li></Link> */}
-            <Link to="/blog" className="navitems"><li>Blog</li></Link>
-            <Link to="/privacy" className="navitems"><li>Privacy</li></Link>
-            <Link to="/about" className="navitems"><li>About Us</li></Link>
-            <Link to="/pr" className="navitems"><li>API Pricing</li></Link>
+          <li><Link to="/" className="navitems" onClick={closeDrawer}>Home</Link></li>
+          <li><Link to="/blog" className="navitems" onClick={closeDrawer}>Blog</Link></li>
+          <li><Link to="/privacy" className="navitems" onClick={closeDrawer}>Privacy</Link></li>
+          <li><Link to="/about" className="navitems" onClick={closeDrawer}>About Us</Link></li>
+          <li><Link to="/pr" className="navitems" onClick={closeDrawer}>API Pricing</Link></li>
         </ul>
         <button className="signup-btn drawer-btn">Log in</button>
         <button className="signup-btn drawer-btn">Sign up</button>
       </div>
 
       {/* Overlay for closing the drawer */}
-      {isDrawerOpen && <div className="overlay active" onClick={toggleDrawer}></div>}
+      {isDrawerOpen && <div className="overlay active" onClick={closeDrawer}></div>}
     </>
   );
 };

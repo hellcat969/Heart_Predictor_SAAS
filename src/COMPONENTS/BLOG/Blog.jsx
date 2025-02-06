@@ -49,13 +49,13 @@ const BlogPage = () => {
     },
     {
       id: 2,
-      title: 'Heart Health in Your Hands: Simple Daily Habits to Lower Your Heart Attack Risk',
+      title: 'Heart Attack Supplements: Essential Nutrients for a Healthy Heart',
       image: A2,
       link: '/blog/2',
     },
     {
       id: 3,
-      title: 'The Connection Between Stress and Heart Attack: How to Protect Yourself',
+      title: 'Congestive Heart Failure ICD-10: A Comprehensive Guide',
       image: A3,
       link: '/blog/3',
     },
