@@ -4,10 +4,10 @@ import './Blog.css';
 
 // Import local images
 import A1 from '../ASSESTS/A1.webp';
-import A2 from '../ASSESTS/A3.webp';
-import A3 from '../ASSESTS/A4.webp';
-import A4 from '../ASSESTS/A5.webp';
-import A5 from '../ASSESTS/A2.webp';
+import A2 from '../ASSESTS/A2.webp';
+import A3 from '../ASSESTS/A3.webp';
+import A4 from '../ASSESTS/A4.webp';
+import A5 from '../ASSESTS/A5.webp';
 import A6 from '../ASSESTS/A6.webp';
 import A7 from '../ASSESTS/A7.webp';
 import A8 from '../ASSESTS/A8.webp';
@@ -55,13 +55,13 @@ const BlogPage = () => {
     },
     {
       id: 3,
-      title: 'Congestive Heart Failure ICD-10: A Comprehensive Guide',
+      title: 'Congestive Heart Failure ICD-10: Symptoms,Causes,Stages and Trearment',
       image: A3,
       link: '/blog/3',
     },
     {
       id: 4,
-      title: 'Debunking 7 Common Myths About Heart Attack',
+      title: 'Diastolic Heart Failure: Symptoms, Causes, Treatment, and Myths',
       image: A4,
       link: '/blog/4',
     },

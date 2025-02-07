@@ -274,7 +274,7 @@ const BlogDetail = () => {
 
     {
       "id": "3",
-      "title": "Congestive Heart Failure ICD-10: A Comprehensive Guide",
+      "title": "Congestive Heart Failure ICD-10: Symptoms,Causes,Stages and Trearment",
       "introduction": "Congestive heart failure (CHF) is a chronic medical condition where the heart is unable to pump blood effectively to meet the body's needs. It affects millions of people worldwide and is a leading cause of hospitalizations, particularly among older adults and individuals with underlying cardiovascular diseases. CHF can significantly impact a patient’s quality of life, leading to symptoms such as shortness of breath, fatigue, swelling in the legs, and fluid retention.The International Classification of Diseases, 10th Edition (ICD-10), provides specific codes to classify and document CHF accurately, ensuring standardized diagnosis and treatment across healthcare facilities. These codes are crucial for medical billing, diagnosis, and treatment planning, helping healthcare providers track disease prevalence, allocate resources, and develop targeted interventions. Proper coding also plays a vital role in research and epidemiological studies, enabling healthcare professionals to analyze trends, evaluate treatment outcomes, and improve patient care.",
       "sections": [
         {
@@ -490,83 +490,237 @@ const BlogDetail = () => {
      
     {
       "id": "4",
-      "title": "Debunking 7 Common Myths About Heart Attack",
-      "introduction": "Heart disease remains one of the leading causes of death worldwide, yet misconceptions and myths about this condition are widespread. These misunderstandings can lead to delayed diagnoses, improper prevention, and inadequate management of heart health. It's time to separate fact from fiction and arm ourselves with knowledge that can save lives. In this comprehensive article, we will debunk seven common myths about heart disease, providing evidence-based information to empower you to make informed choices for your heart health.",
+      "title": "Diastolic Heart Failure: Symptoms, Causes, Treatment, and Myths",
+      "introduction": "Diastolic heart failure, also known as heart failure with preserved ejection fraction (HFpEF), is a condition in which the heart muscle becomes stiff and loses its ability to relax properly between beats. This stiffness prevents the heart from filling with an adequate amount of blood, even though its pumping function remains relatively normal. As a result, less oxygen-rich blood is circulated to the body, leading to symptoms of heart failure such as shortness of breath, fatigue, and swelling in the legs and abdomen. HFpEF is becoming increasingly common, especially among older adults, women, and individuals with high blood pressure, diabetes, or obesity. Unlike systolic heart failure, where the heart's ability to contract is impaired, diastolic heart failure is primarily a problem of relaxation and filling, making it a unique and complex condition that requires careful management. Early diagnosis is crucial for improving quality of life and preventing complications. Since HFpEF shares symptoms with many other conditions, it is often misdiagnosed or overlooked. However, with advancements in medical research and diagnostic tools, healthcare professionals are now better equipped to recognize and treat this condition effectively. In this article, we will explore Common symptoms of diastolic heart failure Underlying causes and risk factors that contribute to HFpEF Available treatment options, including medications and lifestyle changes Common myths and misconceptions about the condition By understanding diastolic heart failure in depth, individuals at risk can take proactive steps to manage their health, and those already diagnosed can make informed decisions about their treatment.",
       "sections": [
         {
-          "title": "Myth 1: Heart Disease Only Affects Older Adults",
+          "title": "Understanding Diastolic Heart Failure",
           "content": [
-            "One of the most persistent myths about heart disease is that it only impacts older adults. While it’s true that the risk increases with age, younger individuals are not immune.",
-            "Heart disease can begin early due to unhealthy habits such as poor diet, lack of exercise, smoking, and high stress levels. Childhood obesity is on the rise globally, increasing the risk of hypertension and cholesterol problems.",
-            "Key Takeaway: Heart health is a lifelong commitment. Developing healthy habits early can significantly reduce your risk of heart disease."
+            "To understand diastolic heart failure, it is crucial to first understand how the heart functions. The heart is a muscular organ divided into four chambers: two upper chambers called the atria and two lower chambers called the ventricles. These chambers work together to circulate blood throughout the body. The right side of the heart pumps oxygen-poor blood to the lungs, where it gets oxygenated, while the left side of the heart receives this oxygen-rich blood and pumps it to the rest of the body. This continuous cycle ensures that all organs receive the necessary oxygen and nutrients to function properly. In diastolic heart failure (HFpEF), the left ventricle becomes stiff and less flexible, making it difficult for the heart to relax and fill with blood efficiently. Even though the heart’s pumping ability remains normal, the reduced filling capacity means less blood is available to be circulated with each heartbeat. This leads to increased pressure in the heart and lungs, causing symptoms such as shortness of breath, fatigue, and fluid retention. Diastolic heart failure is different from systolic heart failure, where the main problem is a weakened pumping function due to the heart muscle losing its strength. In HFpEF, the heart still contracts and pumps blood effectively, but the issue lies in its inability to relax and accommodate enough blood during the filling phase. This results in congestion and inadequate circulation, which can make physical activity challenging and significantly impact daily life. Because diastolic heart failure is often underdiagnosed or mistaken for other conditions like aging-related fatigue or lung disease, it is important to recognize its unique characteristics and risk factors. Proper management, including lifestyle changes, medications, and controlling underlying conditions like high blood pressure or diabetes, can help improve heart function and reduce symptoms. Understanding this condition is the first step toward better heart health and improved quality of life for those affected."
           ]
         },
         {
-          "title": "Myth 2: Heart Disease Only Affects Men",
+          "title": "Symptoms of Diastolic Heart Failure",
           "content": [
-            "Heart disease is often perceived as a 'man's disease,' leaving many women unaware of their own risks.",
-            "Heart disease is the leading cause of death for women globally, claiming more lives annually than breast cancer. Women may experience different symptoms of heart attacks, such as nausea, back pain, or shortness of breath, which are often overlooked or misdiagnosed.",
-            "Key Takeaway: Heart disease doesn’t discriminate by gender. Women must prioritize heart health through regular checkups, a balanced diet, and exercise."
+            "The symptoms of diastolic heart failure often develop gradually and may worsen over time. Some of the most common symptoms include:"
           ]
         },
         {
-          "title": "Myth 3: You’ll Know If You Have Heart Disease",
+          "title": "1. Shortness of Breath (Dyspnea)",
           "content": [
-            "Many believe that heart disease is always accompanied by obvious symptoms like chest pain or shortness of breath. This misconception can delay seeking medical help.",
-            "Heart disease can progress without noticeable symptoms, especially in its early stages. Conditions like high blood pressure and high cholesterol are often called 'silent killers' because they damage the heart and blood vessels without causing noticeable discomfort.",
+            "Patients may experience difficulty breathing, especially during physical activity or when lying down.",
+            "Fluid buildup in the lungs can worsen this symptom, leading to discomfort even during rest.",
             "Key Takeaway: Regular medical checkups are crucial for detecting heart disease before it progresses."
           ]
         },
         {
-          "title": "Myth 4: If You’re Fit and Active, You Don’t Need to Worry About Heart Disease",
+          "title": "2. Fatigue and Weakness",
           "content": [
-            "Physical fitness is essential for heart health, but being active doesn’t make you immune to heart disease.",
-            "While exercise significantly reduces the risk of heart disease, it’s not a foolproof shield. Factors like genetics, diet, smoking, and stress also play a role. Some athletes have experienced heart problems due to underlying conditions.",
+            "Due to poor blood circulation, muscles do not receive enough oxygen, resulting in constant tiredness.",
+            "Patients may feel exhausted even after minimal exertion.",
             "Key Takeaway: Stay active, but don’t neglect other aspects of heart health, such as diet, stress management, and regular checkups."
           ]
         },
         {
-          "title": "Myth 5: Heart Disease Is Caused Solely by High Cholesterol",
+          "title": "3. Swelling in Legs and Feet (Edema)",
           "content": [
-            "High cholesterol is often blamed as the primary cause of heart disease, but it’s not the sole culprit.",
-            "Heart disease results from a combination of factors, including high blood pressure, diabetes, smoking, obesity, and chronic inflammation.",
+            "The body's inability to properly circulate blood can cause fluid retention in the lower extremities.",
+            "Swelling may be more noticeable after prolonged sitting or standing.",
             "Key Takeaway: Managing cholesterol is essential, but a holistic approach to heart health is vital."
           ]
         },
         {
-          "title": "Myth 6: Supplements Can Prevent or Cure Heart Disease",
+          "title": "4. Rapid or Irregular Heartbeat (Palpitations)",
           "content": [
-            "Supplements like omega-3 fatty acids, CoQ10, and vitamin D can support heart health, but they are not a substitute for a healthy lifestyle or prescribed medications.",
-            "Over-reliance on supplements can give a false sense of security while ignoring critical lifestyle factors like diet, exercise, and stress management.",
-            "Key Takeaway: Supplements can complement, but not replace, a heart-healthy lifestyle and medical care."
+            "The heart may work harder to compensate for reduced blood flow, leading to a fast or irregular heartbeat."
           ]
         },
         {
-          "title": "Myth 7: Heart Disease Can’t Be Reversed",
+          "title": "5. Frequent Nighttime Urination (Nocturia)",
           "content": [
-            "A heart disease diagnosis often feels like a life sentence, but it doesn’t have to be.",
-            "With proper intervention, many aspects of heart disease can be managed or even reversed through lifestyle changes and medical treatments, such as adopting a plant-based diet, regular exercise, quitting smoking, and stress reduction techniques.",
-            "Key Takeaway: A diagnosis isn’t the end. With the right approach, you can significantly improve your heart health and quality of life."
+            "The body's fluid balance is affected, causing increased urination at night."
           ]
         },
         {
-          "title": "Proactive Steps to Protect Your Heart",
+          "title": "6. Coughing or Wheezing",
           "content": [
-            "Here are some evidence-based tips to maintain optimal heart health:",
-            "Adopt a Mediterranean diet: Rich in healthy fats, lean proteins, and antioxidants.",
-            "Exercise regularly: Aim for at least 150 minutes of moderate activity per week.",
-            "Monitor your numbers: Keep track of blood pressure, cholesterol, and blood sugar levels.",
-            "Quit smoking: Seek support to kick the habit.",
-            "Manage stress: Incorporate relaxation techniques like deep breathing or meditation.",
-            "Limit alcohol consumption: Stick to recommended guidelines for alcohol intake.",
-            "Stay informed: Regularly educate yourself about heart health and consult with professionals."
+            "Fluid buildup in the lungs can lead to persistent coughing or a wheezing sensation."
+          ]
+        },
+        {
+          "title": "7. Difficulty Exercising",
+          "content": [
+            "Patients may find it challenging to engage in physical activities that were once easy."
+          ]
+        },
+        {
+          "title": "Causes of Diastolic Heart Failure",
+          "content": [
+            "Several factors contribute to the development of diastolic heart failure. The most common causes include:"
+          ]
+        },
+        {
+          "title": "1. High Blood Pressure (Hypertension)",
+          "content": [
+            "Chronic high blood pressure makes the heart work harder, causing the heart muscles to stiffen over time."
+          ]
+        },
+        {
+          "title": "2. Aging",
+          "content": [
+            "As individuals age, the heart’s elasticity decreases, increasing the risk of diastolic dysfunction."
+          ]
+        },
+        {
+          "title": "3. Diabetes",
+          "content": [
+            "Diabetes affects blood vessels and contributes to heart disease, making diastolic heart failure more likely."
+          ]
+        },
+        {
+          "title": "4. Obesity",
+          "content": [
+            "Excess body weight puts added strain on the heart, leading to structural changes."
+          ]
+        },
+        {
+          "title": "5. Coronary Artery Disease (CAD)",
+          "content": [
+            "Blocked or narrowed arteries restrict blood flow to the heart, increasing the risk of diastolic dysfunction."
+          ]
+        },
+        {
+          "title": "6. Chronic Kidney Disease",
+          "content": [
+            "Poor kidney function can lead to fluid retention, contributing to heart problems."
+          ]
+        },
+        {
+          "title": "7. Atrial Fibrillation (AFib)",
+          "content": [
+            "Irregular heart rhythms can make it difficult for the heart to fill properly, leading to diastolic heart failure."
+          ]
+        },
+        {
+          "title": "8. Genetic Factors",
+          "content": [
+            "A family history of heart disease may increase the likelihood of developing diastolic heart failure."
+          ]
+        },
+        {
+          "title": "Diagnosis of Diastolic Heart Failure",
+          "content": [
+            "Diagnosing diastolic heart failure involves several tests to assess heart function, including:",
+            "Echocardiogram: Measures heart function and stiffness of the ventricles.",
+            "Electrocardiogram (ECG): Identifies irregular heart rhythms.",
+            "Chest X-ray: Detects fluid buildup in the lungs.",
+            "Blood Tests: Measures biomarkers like B-type natriuretic peptide (BNP) to assess heart stress.",
+            "Cardiac MRI: Provides detailed imaging of heart structure.",
+          ]
+        },
+        {
+          "title": "Treatment Options for Diastolic Heart Failure",
+          "content": [
+            "All the possible treatments for Diastolic Heart Failure are listed and explained below:"
+          ]
+        },
+        {
+          "title": "1. Lifestyle Changes",
+          "content": [
+            "Healthy Diet: A heart-friendly diet with low sodium, more vegetables, and lean proteins.",
+            "Regular Exercise: Moderate activities like walking improve heart function.",
+            "Weight Management: Maintaining a healthy weight reduces strain on the heart.",
+            "Quit Smoking and Alcohol: Both contribute to heart disease progression."
+          ]
+        },
+        {
+          "title": "2. Medications",
+          "content": [
+            "Diuretics: Reduce fluid buildup and alleviate swelling.",
+            "Beta-blockers: Lower heart rate and improve heart efficiency.",
+            "ACE Inhibitors & ARBs: Help relax blood vessels.",
+            "Calcium Channel Blockers: Improve heart relaxation."
+          ]
+        },
+        {
+          "title": "3. Managing Underlying Conditions",
+          "content": [
+            "Blood Pressure Control: Keeping hypertension in check is crucial.",
+            "Diabetes Management: Maintaining stable blood sugar levels is essential."
+          ]
+        },
+        {
+          "title": "4. Advanced Treatment Options",
+          "content": [
+            "Pacemakers: In some cases, a pacemaker helps regulate heart rhythms.",
+            "Cardiac Rehabilitation: A supervised program improving heart health through exercise and education."
+          ]
+        },
+        {
+          "title": "Myths About Diastolic Heart Failure",
+          "content": [
+            "There is the breakdown of the Myths which are leading to unhealthy."
+          ]
+        },
+        {
+          "title": "1. Myth: It Only Affects Older Adults",
+          "content": [
+            "While more common in seniors, younger individuals with hypertension or obesity can also develop this condition."
+          ]
+        },
+        {
+          "title": "2. Myth: It is the Same as Systolic Heart Failure",
+          "content": [
+            "Unlike systolic heart failure, which weakens the heart's pumping ability, diastolic heart failure affects relaxation and filling."
+          ]
+        },
+        {
+          "title": "3. Myth: There is No Treatment",
+          "content": [
+            "While there is no cure, effective treatments can help manage symptoms and improve quality of life."
+          ]
+        },
+        {
+          "title": "4. Myth: Exercise is Dangerous for People with Heart Failure",
+          "content": [
+            "Moderate physical activity is beneficial and can improve heart function when done under medical guidance."
+          ]
+        },
+        {
+          "title": "5. Myth: If You Have No Symptoms, You Don’t Have Heart Failure",
+          "content": [
+            "Some individuals have early-stage diastolic dysfunction without noticeable symptoms. Regular checkups are essential.",
+            "Learn more here: 'quackex.com'"
           ]
         },
         {
           "title": "Conclusion",
           "content": [
-            "Heart disease is a complex condition that requires a proactive and informed approach to prevention and management. By debunking these seven myths, we’ve highlighted the importance of understanding the nuances of heart health. Whether you’re young or old, male or female, active or sedentary, heart health should always be a priority.",
-            "Knowledge is power, and by sharing accurate information, we can work together to reduce the prevalence of heart disease. Remember, it’s never too early—or too late—to start taking care of your heart."
+            "Diastolic heart failure is a serious but manageable condition that affects millions of people worldwide. It occurs when the heart’s left ventricle becomes stiff, preventing it from filling with blood efficiently. As a result, despite having a normal pumping function, the heart struggles to circulate enough oxygen-rich blood to meet the body's needs. While this condition can be progressive and debilitating, early diagnosis and proper management can significantly improve quality of life and reduce complications. Recognizing the symptoms, causes, and available treatment options is crucial for individuals living with diastolic heart failure. Common symptoms include shortness of breath, fatigue, swelling in the legs and ankles, difficulty exercising, and sudden weight gain due to fluid retention. These signs often develop gradually, making them easy to overlook or mistake for normal aging or other health conditions. However, early detection allows for timely intervention, which can slow disease progression and enhance overall well-being. Lifestyle changes play a significant role in managing diastolic heart failure effectively. Maintaining a healthy diet, engaging in regular physical activity, managing stress, controlling high blood pressure and diabetes, and avoiding smoking and excessive alcohol consumption can help reduce the burden on the heart. Medications such as diuretics, beta-blockers, and ACE inhibitors may also be prescribed to relieve symptoms and improve heart function. In some cases, cardiac rehabilitation programs can provide structured guidance for patients to adopt heart-healthy habits under medical supervision. Dispelling myths about heart failure is essential to ensure that individuals seek the right treatment and take proactive steps toward heart health. One common misconception is that heart failure only affects the elderly or those with severe heart conditions. In reality, HFpEF can develop in middle-aged adults, especially those with high blood pressure, obesity, or diabetes. Another myth is that heart failure means the heart stops working, but in most cases, it means the heart is functioning less efficiently rather than failing completely. Understanding these facts can empower people to take their condition seriously and adopt necessary lifestyle modifications. If you or a loved one experience symptoms related to diastolic heart failure, it is essential to consult a healthcare provider for a comprehensive assessment and a personalized treatment plan. Early medical intervention can help manage symptoms, slow disease progression, and improve overall heart health. By staying informed and proactive, individuals with diastolic heart failure can lead fulfilling and active lives despite their condition."
+          ],
+          
+        },
+        {
+          "title": "FAQs About Diastolic Heart Failure",
+          "content": [
+          ]
+        },
+        {
+          "title": "1. Can diastolic heart failure be reversed?",
+          "content": [
+            "While diastolic heart failure cannot be completely reversed, the good news is that lifestyle changes and medications can significantly improve heart function, relieve symptoms, and enhance overall quality of life. By adopting heart-healthy habits, individuals can reduce the burden on the heart and slow disease progression. One of the most important lifestyle modifications is maintaining a balanced diet that is low in sodium, unhealthy fats, and processed foods. Excess sodium can lead to fluid retention and increased blood pressure, further straining the heart. Instead, a diet rich in fruits, vegetables, whole grains, lean proteins, and healthy fats can support cardiovascular health. Additionally, staying properly hydrated while managing fluid intake as recommended by a doctor can help prevent swelling and discomfort. Regular physical activity is another key factor in improving heart function. Low- to moderate-intensity exercises, such as walking, swimming, or cycling, can help strengthen the heart, improve circulation, and reduce symptoms like fatigue and breathlessness. However, it is essential to follow a doctor-approved exercise plan to avoid overexertion, as excessive strain can worsen symptoms. Managing underlying conditions such as high blood pressure, diabetes, and obesity is crucial in controlling diastolic heart failure. These conditions increase the workload on the heart, making it more difficult for it to function efficiently. Regular medical check-ups, adherence to prescribed medications, and lifestyle modifications can help keep these risk factors under control. Medications also play a vital role in symptom relief and heart health improvement. Diuretics help reduce fluid buildup, lowering swelling and easing breathing difficulties. Beta-blockers and ACE inhibitors can help control blood pressure and improve heart efficiency, reducing the strain on the stiffened left ventricle. In some cases, doctors may prescribe medications that help the heart relax and fill more effectively. Additionally, stress management and quality sleep are often overlooked aspects of heart health. Chronic stress and poor sleep can lead to hormonal imbalances, increasing blood pressure and worsening symptoms. Practices such as meditation, deep breathing exercises, and ensuring a consistent sleep schedule can contribute to overall heart function improvement. Although diastolic heart failure may not be fully reversible, a proactive approach to treatment and lifestyle adjustments can help individuals manage their condition successfully. By making informed choices, staying physically active, following a healthy diet, and taking prescribed medications, people with diastolic heart failure can lead healthier, more fulfilling lives with fewer complications."
+          ]
+        },
+        {
+          "title": "2. What is the life expectancy of someone with diastolic heart failure?",
+          "content": [
+            "Life expectancy for individuals with diastolic heart failure (HFpEF) depends on several factors, including overall health, adherence to treatment, and the presence of other medical conditions. While diastolic heart failure is a chronic condition, many people can live for years or even decades with proper management. Early diagnosis, lifestyle changes, and effective medical treatment all play a crucial role in improving prognosis and enhancing quality of life. One of the most significant factors influencing life expectancy is overall health and fitness level. Individuals who maintain a healthy weight, engage in regular physical activity, manage stress, and follow a heart-healthy diet tend to have better outcomes. The heart’s ability to adapt and function efficiently can be improved through controlled exercise routines and a diet that supports cardiovascular health, such as the Mediterranean or DASH diet. Adherence to treatment is another critical component in determining life expectancy. Patients who consistently take prescribed medications, monitor their symptoms, and follow up with their healthcare providers often experience fewer complications and slower disease progression. Medications such as beta-blockers, diuretics, and ACE inhibitors help regulate blood pressure, reduce fluid buildup, and support heart function, making it easier to manage symptoms and prevent hospitalizations. The presence of other medical conditions, such as high blood pressure, diabetes, obesity, kidney disease, or chronic lung disease, can also impact longevity. These conditions increase the strain on the heart, making it more difficult to manage diastolic heart failure effectively. Controlling these underlying health issues through lifestyle changes, medication, and regular medical check-ups can help improve overall survival rates. Another important factor is the severity of heart failure at the time of diagnosis. Individuals diagnosed at an early stage often have better treatment options and a greater ability to slow disease progression. In contrast, those diagnosed at a more advanced stage may experience more frequent hospitalizations and complications. This is why early detection and proactive management are essential for improving long-term outcomes. While diastolic heart failure is a serious condition, it is not an immediate life-threatening diagnosis for most people. With proper medical care, healthy lifestyle choices, and effective symptom management, individuals can live long and fulfilling lives despite their condition. Staying informed, proactive, and committed to heart health can make a significant difference in both life expectancy and overall well-being."
+          ]
+        },
+        {
+          "title": "3. Is diastolic heart failure fatal?",
+          "content": [
+            "If left untreated, diastolic heart failure (HFpEF) can lead to severe complications, significantly impacting both quality of life and overall survival. Since the condition affects the heart’s ability to relax and fill properly, it can gradually worsen over time, leading to increased pressure in the heart, fluid buildup, and reduced oxygen supply to vital organs. However, with proper management, the progression of the disease can be controlled or even slowed, allowing individuals to maintain a relatively normal lifestyle. One of the major complications of untreated diastolic heart failure is pulmonary hypertension. As the left ventricle struggles to fill with blood efficiently, pressure builds up in the left atrium and lungs, leading to fluid accumulation and increased resistance in the pulmonary arteries. This can cause severe shortness of breath, persistent fatigue, and reduced exercise capacity, making daily activities challenging. Over time, pulmonary hypertension can put additional strain on the right side of the heart, potentially leading to right-sided heart failure, a condition where the heart becomes unable to pump blood effectively to the lungs. Another serious risk is fluid overload, which can lead to swelling in the legs, ankles, and abdomen (edema), as well as congestion in the lungs. This can cause difficulty breathing, persistent coughing, and frequent hospitalizations due to worsening symptoms. In extreme cases, fluid can accumulate in the lungs (pulmonary edema), leading to a life-threatening emergency requiring immediate medical attention. Untreated diastolic heart failure can also increase the risk of arrhythmias (irregular heartbeats). As the heart struggles to function efficiently, electrical signals within the heart can become disrupted, leading to conditions such as atrial fibrillation (AFib). AFib can further reduce heart efficiency, cause palpitations, and increase the risk of stroke due to blood clots forming in the heart. Moreover, without proper treatment, vital organs such as the kidneys and liver may also suffer damage. Reduced blood flow to the kidneys can lead to chronic kidney disease or kidney failure, while fluid congestion can impair liver function, potentially causing cirrhosis or liver congestion. These complications can make heart failure even more difficult to manage, leading to a vicious cycle of worsening health issues. However, proper management through medications, lifestyle changes, and regular medical check-ups can significantly reduce the risk of these complications and slow disease progression. By controlling blood pressure, managing diabetes, maintaining a healthy diet, staying physically active, and adhering to prescribed treatments, individuals with diastolic heart failure can improve their symptoms and prevent further deterioration. Early intervention is key to ensuring that the condition remains manageable rather than life-threatening. Taking a proactive approach to heart health by recognizing symptoms early, seeking medical advice, and following a personalized treatment plan can help individuals with diastolic heart failure lead longer, healthier, and more fulfilling lives despite their diagnosis."
           ]
         }
       ]
@@ -2553,7 +2707,6 @@ const BlogDetail = () => {
           </ul>
         </div>
       ))}
-      <h3>Conclusion</h3>
       <p>{blog.conclusion}</p>
     </div>
   );
