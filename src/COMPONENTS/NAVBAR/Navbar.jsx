@@ -1,16 +1,15 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import './Navbar.css';
+import { useState } from "react";
+import { FaBars, FaTimes } from "react-icons/fa";
+import { Link } from "react-router-dom";
+import "./Navbar.css";
 
 const Navbar = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
 
-  // Function to toggle the mobile drawer
   const toggleDrawer = () => {
     setIsDrawerOpen((prev) => !prev);
   };
 
-  // Function to close the drawer
   const closeDrawer = () => {
     setIsDrawerOpen(false);
   };
@@ -18,44 +17,40 @@ const Navbar = () => {
   return (
     <>
       <nav className="navbar">
-        <div className="logo">HGAI</div>
+        <div className="navbar-container">
+          <h1 className="logo">HARP</h1>
 
-        {/* Desktop Navigation Items */}
-        <div className="desktop-items">
-          <ul>
-            <li><Link to="/" className="navitems">Home</Link></li>
-            <li><Link to="/blog" className="navitems">Blog</Link></li>
-            <li><Link to="/privacy" className="navitems">Privacy</Link></li>
-            <li><Link to="/about" className="navitems">About Us</Link></li>
-            <li><Link to="/pr" className="navitems">API Pricing</Link></li>
+          {/* Desktop Navigation */}
+          <ul className="nav-links">
+            <li><Link to="/" className="nav-link">Home</Link></li>
+            <li><Link to="/blog" className="nav-link">Blog</Link></li>
+            <li><Link to="/privacy" className="nav-link">Privacy</Link></li>
+            <li><Link to="/about" className="nav-link">About Us</Link></li>
+            <li><Link to="/pr" className="nav-link">API Pricing</Link></li>
           </ul>
-        </div>
 
-        {/* Desktop Buttons */}
-        <div className="desktop-buttons">
-          <button className="signup-btn">HEALTH</button>
-          <button className="signup-btn">GUARD</button>
-        </div>
+          {/* Desktop Buttons */}
+          <div className="desktop-buttons">
+            <button className="signup-btn">HEALTH</button>
+            <button className="signup-btn">GUARD</button>
+          </div>
 
-        {/* Hamburger for Mobile */}
-        <div className="hamburger" onClick={toggleDrawer}>
-          <div className="line"></div>
-          <div className="line"></div>
-          <div className="line"></div>
+          {/* Mobile Menu Button */}
+          <button className="menu-btn" onClick={toggleDrawer}>
+            {isDrawerOpen ? <FaTimes /> : <FaBars />}
+          </button>
         </div>
       </nav>
 
       {/* Mobile Drawer Menu */}
-      <div className={`drawer ${isDrawerOpen ? 'open' : ''}`}>
-        <ul>
-          <li><Link to="/" className="navitems" onClick={closeDrawer}>Home</Link></li>
-          <li><Link to="/blog" className="navitems" onClick={closeDrawer}>Blog</Link></li>
-          <li><Link to="/privacy" className="navitems" onClick={closeDrawer}>Privacy</Link></li>
-          <li><Link to="/about" className="navitems" onClick={closeDrawer}>About Us</Link></li>
-          <li><Link to="/pr" className="navitems" onClick={closeDrawer}>API Pricing</Link></li>
+      <div className={`mobile-drawer ${isDrawerOpen ? "open" : ""}`}>
+        <ul className="mobile-links">
+          <li><Link to="/" className="nav-link" onClick={closeDrawer}>Home</Link></li>
+          <li><Link to="/blog" className="nav-link" onClick={closeDrawer}>Blog</Link></li>
+          <li><Link to="/privacy" className="nav-link" onClick={closeDrawer}>Privacy</Link></li>
+          <li><Link to="/about" className="nav-link" onClick={closeDrawer}>About Us</Link></li>
+          <li><Link to="/pr" className="nav-link" onClick={closeDrawer}>API Pricing</Link></li>
         </ul>
-        <button className="signup-btn drawer-btn">Log in</button>
-        <button className="signup-btn drawer-btn">Sign up</button>
       </div>
 
       {/* Overlay for closing the drawer */}
