@@ -55,7 +55,7 @@ const BlogPage = () => {
     },
     {
       id: 3,
-      title: 'Congestive Heart Failure ICD-10: Symptoms,Causes,Stages and Trearment',
+      title: 'Congestive Heart Failure ICD-10: Symptoms, Causes, Stages and Treatment',
       image: A3,
       link: '/blog/3',
     },

@@ -274,7 +274,7 @@ const BlogDetail = () => {
 
     {
       "id": "3",
-      "title": "Congestive Heart Failure ICD-10: Symptoms,Causes,Stages and Trearment",
+      "title": "Congestive Heart Failure ICD-10: Symptoms, Causes, Stages and Treatment",
       "introduction": "Congestive heart failure (CHF) is a chronic medical condition where the heart is unable to pump blood effectively to meet the body's needs. It affects millions of people worldwide and is a leading cause of hospitalizations, particularly among older adults and individuals with underlying cardiovascular diseases. CHF can significantly impact a patient’s quality of life, leading to symptoms such as shortness of breath, fatigue, swelling in the legs, and fluid retention.The International Classification of Diseases, 10th Edition (ICD-10), provides specific codes to classify and document CHF accurately, ensuring standardized diagnosis and treatment across healthcare facilities. These codes are crucial for medical billing, diagnosis, and treatment planning, helping healthcare providers track disease prevalence, allocate resources, and develop targeted interventions. Proper coding also plays a vital role in research and epidemiological studies, enabling healthcare professionals to analyze trends, evaluate treatment outcomes, and improve patient care.",
       "sections": [
         {
@@ -481,9 +481,204 @@ const BlogDetail = () => {
           "content": [
             "Routine medical checkups help detect risk factors such as high blood pressure, high cholesterol, and diabetes early, allowing for timely intervention. Regular screenings for heart disease, blood sugar levels, and cholesterol can help individuals take preventive measures before complications arise. Consulting a healthcare provider for personalized advice and following recommended screenings can significantly reduce the risk of developing CHF."
           ]
-        }
-      ],
-      "conclusion": "Congestive heart failure is a serious medical condition that affects millions of people worldwide, but with proper diagnosis, treatment, and lifestyle adjustments, individuals can manage their symptoms and improve their quality of life. Although CHF is a chronic condition, advancements in medical treatments and early intervention strategies have significantly enhanced patient outcomes, allowing many individuals to lead active and fulfilling lives despite their diagnosis. The ICD-10 codes for CHF provide a standardized way for healthcare professionals to classify and document the condition, ensuring accurate treatment, streamlined communication among medical providers, and proper insurance billing. These codes help differentiate between the various forms of CHF, such as systolic or diastolic heart failure, acute or chronic cases, and right-sided or left-sided failure, enabling physicians to tailor treatment plans based on the specific needs of each patient. Proper classification also supports medical research efforts, helping healthcare professionals analyze trends, improve treatment protocols, and develop new therapeutic approaches. By understanding the causes, symptoms, diagnosis, and treatment options, individuals can take proactive steps to prevent and manage congestive heart failure effectively. Common causes include high blood pressure, coronary artery disease, diabetes, obesity, and lifestyle factors such as smoking and poor diet. Recognizing symptoms like shortness of breath, fatigue, swelling in the legs, and rapid weight gain can lead to early detection and prompt medical intervention. Diagnosis of CHF typically involves physical examinations, imaging tests (such as echocardiograms and MRIs), electrocardiograms (ECGs), and blood tests to assess heart function and detect underlying conditions. Once diagnosed, treatment options include medications (such as beta-blockers, diuretics, and ACE inhibitors), lifestyle changes, medical procedures (such as implanting pacemakers or defibrillators), and, in severe cases, surgical interventions like heart transplants. Preventive measures play a crucial role in reducing the risk of developing CHF or slowing its progression. Managing high blood pressure and cholesterol, exercising regularly, following a heart-healthy diet, quitting smoking, limiting alcohol intake, maintaining a healthy weight, and attending routine medical checkups are all essential for heart health. With a comprehensive approach that combines medical care, lifestyle modifications, and ongoing monitoring, individuals with CHF can achieve better health outcomes and improve their overall well-being."
+        },
+        {
+          "title": "Conclusion",
+          "content": [
+            "Congestive heart failure is a serious medical condition that affects millions of people worldwide, but with proper diagnosis, treatment, and lifestyle adjustments, individuals can manage their symptoms and improve their quality of life. Although CHF is a chronic condition, advancements in medical treatments and early intervention strategies have significantly enhanced patient outcomes, allowing many individuals to lead active and fulfilling lives despite their diagnosis. The ICD-10 codes for CHF provide a standardized way for healthcare professionals to classify and document the condition, ensuring accurate treatment, streamlined communication among medical providers, and proper insurance billing. These codes help differentiate between the various forms of CHF, such as systolic or diastolic heart failure, acute or chronic cases, and right-sided or left-sided failure, enabling physicians to tailor treatment plans based on the specific needs of each patient. Proper classification also supports medical research efforts, helping healthcare professionals analyze trends, improve treatment protocols, and develop new therapeutic approaches. By understanding the causes, symptoms, diagnosis, and treatment options, individuals can take proactive steps to prevent and manage congestive heart failure effectively. Common causes include high blood pressure, coronary artery disease, diabetes, obesity, and lifestyle factors such as smoking and poor diet. Recognizing symptoms like shortness of breath, fatigue, swelling in the legs, and rapid weight gain can lead to early detection and prompt medical intervention. Diagnosis of CHF typically involves physical examinations, imaging tests (such as echocardiograms and MRIs), electrocardiograms (ECGs), and blood tests to assess heart function and detect underlying conditions. Once diagnosed, treatment options include medications (such as beta-blockers, diuretics, and ACE inhibitors), lifestyle changes, medical procedures (such as implanting pacemakers or defibrillators), and, in severe cases, surgical interventions like heart transplants. Preventive measures play a crucial role in reducing the risk of developing CHF or slowing its progression. Managing high blood pressure and cholesterol, exercising regularly, following a heart-healthy diet, quitting smoking, limiting alcohol intake, maintaining a healthy weight, and attending routine medical checkups are all essential for heart health. With a comprehensive approach that combines medical care, lifestyle modifications, and ongoing monitoring, individuals with CHF can achieve better health outcomes and improve their overall well-being."
+          ]
+        },
+        {
+          "title": "FAQs About Diastolic Heart Failure",
+          "content": [
+          ]
+        },
+        {
+          "title": "F1. What is congestive heart failure (CHF)?",
+          "content": [
+            "Congestive heart failure (CHF) is a chronic condition where the heart becomes too weak or stiff to pump blood effectively. This leads to fluid buildup in the lungs, legs, and other parts of the body, causing symptoms like shortness of breath and swelling."
+          ]
+        },
+        {
+          "title": "2. What causes congestive heart failure?",
+          "content": [
+            "CHF is caused by conditions that weaken or damage the heart, such as:",
+            "Coronary artery disease (blocked arteries)",
+            "High blood pressure (hypertension)",
+            "Heart attacks",
+            "Diabetes",
+            "Heart valve disease",
+            "Cardiomyopathy (disease of the heart muscle)"
+          ]
+        },
+        {
+          "title": "3. What are the different types of congestive heart failure?",
+          "content": [
+            "CHF is classified into three main types:",
+            "Left-sided heart failure – The heart can't pump enough blood to the body.",
+            "Right-sided heart failure – The heart can't pump blood to the lungs properly.",
+            "Biventricular failure – Both sides of the heart are affected.",
+          ]
+        },
+        {
+          "title": "4. What are the early signs of congestive heart failure?",
+          "content": [
+            "Early symptoms of CHF may include:",
+            "Fatigue and weakness",
+            "Shortness of breath, especially when lying down",
+            "Swelling in the feet, ankles, and legs",
+            "Persistent cough or wheezing",
+            "Sudden weight gain due to fluid retention"
+          ]
+        },
+        {
+          "title": "5. How is congestive heart failure diagnosed?",
+          "content": [
+            "Doctors use several tests to diagnose CHF, including:",
+            "Echocardiogram (ECHO): Checks heart function and structure.",
+            "Electrocardiogram (ECG/EKG): Detects irregular heartbeats.",
+            "Chest X-ray: Identifies fluid buildup in the lungs.",
+            "Blood tests: Measures BNP (B-type natriuretic peptide), which increases in heart failure."
+          ]
+        },
+        {
+          "title": "6. What is ejection fraction, and why is it important in CHF?",
+          "content": [
+            "Ejection fraction (EF) measures how much blood the heart pumps with each beat. A normal EF is 50-70%. CHF patients often have an EF below 40%, indicating poor heart function."
+          ]
+        },
+        {
+          "title": "7. Can congestive heart failure be cured?",
+          "content": [
+            "There is no complete cure for CHF, but early diagnosis and proper treatment can manage symptoms, improve quality of life, and extend lifespan."
+          ]
+        },
+        {
+          "title": "8. What are the best treatment options for CHF?",
+          "content": [
+            "CHF treatment involves:",
+            "Medications: ACE inhibitors, beta-blockers, diuretics, and aldosterone antagonists.",
+            "Lifestyle changes: Low-sodium diet, regular exercise, and stress management.",
+            "Surgical options: Pacemakers, heart transplants, or ventricular assist devices (VADs) for severe cases."
+          ]
+        },
+        {
+          "title": "9. How does diet affect congestive heart failure?",
+          "content": [
+            "A heart-healthy diet helps manage CHF. Avoid:",
+            "❌ High-sodium foods (processed meats, canned soups)",
+            "❌ Fried and fatty foods",
+            "❌ Excess sugar and alcohol",
+            "✅ Eat fruits, vegetables, whole grains, and lean proteins"
+          ]
+        },
+        {
+          "title": "10. What lifestyle changes help manage CHF?",
+          "content": [
+            "Exercise regularly (as per doctor’s advice).",
+            "Reduce salt intake to prevent fluid buildup",
+            "Monitor weight daily to detect sudden changes.",
+            "Take medications as prescribed.",
+            "Quit smoking and limit alcohol."
+          ]
+        },
+        {
+          "title": "11. What happens if congestive heart failure is left untreated?",
+          "content": [
+            "Untreated CHF can lead to:",
+            "Kidney failure",
+            "Liver congestion",
+            "Lung problems (pulmonary edema)",
+            "Arrhythmias (irregular heartbeats)",
+            "Cardiac arrest (heart stops beating)"
+          ]
+        },
+        {
+          "title": "12. Who is at risk for developing congestive heart failure?",
+          "content": [
+            "Risk factors include:",
+            "Age: More common in older adults",
+            "High blood pressure & cholesterol",
+            "Diabetes",
+            "Obesity",
+            "Smoking & excessive alcohol consumption"
+          ]
+        },
+        {
+          "title": "13. How does high blood pressure contribute to CHF?",
+          "content": [
+            "High blood pressure forces the heart to work harder over time, leading to heart muscle thickening and eventual heart failure."
+          ]
+        },
+        {
+          "title": "14. Can you live a normal life with congestive heart failure?",
+          "content": [
+            "Yes, with proper management, many people with CHF lead active and fulfilling lives. The key is early treatment, medication adherence, and lifestyle changes."
+          ]
+        },
+        {
+          "title": "15. What exercises are safe for people with CHF?",
+          "content": [
+            "Safe exercises include:",
+            "✔ Walking",
+            "✔ Cycling",
+            "✔ Swimming",
+            "✔ Yoga",
+            "Avoid high-intensity workouts unless advised by a doctor."
+          ]
+        },
+        {
+          "title": "16. How does stress affect CHF?",
+          "content": [
+            "Stress increases blood pressure and heart rate, worsening CHF symptoms. Managing stress through meditation, breathing exercises, and therapy is crucial."
+          ]
+        },
+        {
+          "title": "17. Can congestive heart failure be prevented?",
+          "content": [
+            "Yes! Reduce your risk by:",
+            "Controlling blood pressure and cholesterol",
+            "Eating a healthy diet",
+            "Exercising regularly",
+            "Managing diabetes and stress"
+          ]
+        },
+        {
+          "title": "18. What are the latest advancements in CHF treatment?",
+          "content": [
+            "Recent advancements include:",
+            "Artificial heart pumps (VADs)",
+            "Gene therapy for heart muscle repair",
+            "New medications like SGLT2 inhibitors (originally for diabetes)"
+          ]
+        },
+        {
+          "title": "19. How long can you live with congestive heart failure?",
+          "content": [
+            "Life expectancy depends on:",
+            "✔ Age",
+            "✔ Severity of CHF",
+            "✔ Treatment & lifestyle changes",
+            "✔ Other health conditions",
+            "Many people live for years with proper treatment."
+          ]
+        },
+        {
+          "title": "20. How does CHF affect sleep, and what can help?",
+          "content": [
+            "CHF can cause sleep apnea and difficulty breathing at night. Tips for better sleep:",
+            "✔ Sleep with an elevated head",
+            "✔ Use CPAP (if needed)",
+            "✔ Avoid large meals before bed"
+          ]
+        },
+        {
+          "title": "Conclusion",
+          "content": [
+            "Congestive heart failure is a serious but manageable condition. With early diagnosis, proper treatment, and healthy lifestyle changes, individuals can lead longer and healthier lives."
+          ]
+        },
+      ]
     },
     
     // Article 4
