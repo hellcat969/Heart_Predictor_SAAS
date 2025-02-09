@@ -5,6 +5,8 @@ import Noteone from './Noteone';
 import Predict from "../PREDICTOR/Predict";
 import Hto from './hto';
 import Buto from './buto';  // Ensure this import is correct
+import AgentModePreview from './dta';
+import BarChart from './rat'
 import { Link } from 'react-router-dom';
 
 
@@ -38,7 +40,7 @@ const Main = () => {
       
       <Noteone />
       <Predict/>
-      
+      <AgentModePreview/>
       <Hto />
       {/* If you want to render SupportOpenSource, ensure it's properly imported */}
       {/* <SupportOpenSource /> */}
@@ -47,6 +49,7 @@ const Main = () => {
       <div id="apiSection">
         <Buto />  {/* This renders the Buto component */}
       </div>
+      <BarChart/>
       <Note />
     </>
   );

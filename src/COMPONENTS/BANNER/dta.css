@@ -1,0 +1,73 @@
+/* Container Styles */
+.testimonials-container {
+    text-align: center;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: black;
+  }
+  
+  /* Heading Styles */
+  .testimonials-heading {
+    color: #6a5acd;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+  }
+  
+  /* Title Styles */
+  .testimonials-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .testimonials-title span {
+    color: black;
+  }
+  
+  /* Description Styles */
+  .testimonials-description {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 80px;
+    padding-right: 80px;
+
+  }
+  
+  /* Author Styles */
+  .testimonials-author {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Star Rating Styles */
+  .testimonials-stars {
+    color: gold;
+    font-size: 1.5rem;
+  }
+  
+  /* Responsive Design for Mobile */
+  @media (max-width: 768px) {
+    .testimonials-container {
+      padding: 20px 15px;
+    }
+  
+    .testimonials-title {
+      font-size: 1.5rem;
+    }
+  
+    .testimonials-description {
+      font-size: 0.9rem;
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+      padding: 0 10px;
+    }
+  
+    .testimonials-stars {
+      font-size: 1.2rem;
+    }
+  }
+  
