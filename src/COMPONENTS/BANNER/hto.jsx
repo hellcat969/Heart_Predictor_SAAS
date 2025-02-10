@@ -16,7 +16,7 @@ const Hto = () => {
         </div>
       </div>
       <div className="info-section">
-        <h1>Use <span className="highlight-title">HEALTH Attack Risk Calculator</span> to:</h1>
+        <h1>Use <span className="highlight-title">Heart Attack Risk Calculator</span> to:</h1>
         <ul>
           <li>Check heart attack risks with 91.77% accuracy.</li>
           <li>Monitor major health parameters easily.</li>
