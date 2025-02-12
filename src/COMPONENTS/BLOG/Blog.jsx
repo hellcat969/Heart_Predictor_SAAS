@@ -67,7 +67,7 @@ const BlogPage = () => {
     },
     {
       id: 5,
-      title: 'Superfoods for a Super Heart: The Ultimate Diet to stop Myocardial infarction',
+      title: 'What is Quick Quack Heart Attack Risk Prediction?',
       image: A5,
       link: '/blog/5',
     },
