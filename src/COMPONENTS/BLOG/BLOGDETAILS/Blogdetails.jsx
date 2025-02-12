@@ -3,8 +3,18 @@ import { useParams } from 'react-router-dom';
 
 import './Blogdetails.css';
 
+const generateSlug = (title) => {
+  return title
+    .toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, '') // Remove special characters
+    .trim()
+    .replace(/\s+/g, '-') // Replace spaces with hyphens
+    .replace(/-+/g, '-'); // Replace multiple hyphens with a single hyphen
+};
+
+
 const BlogDetail = () => {
-  const { id } = useParams();
+  const { slug } = useParams();
 
   // Array containing multiple blog articles
   const blogs = [
@@ -1240,46 +1250,369 @@ const BlogDetail = () => {
     // Article 7
     {
       "id": "7",
-      "title": "Are You at Risk? Top Risk Factors for Heart Attack You Should Know",
-      "introduction": "Heart disease remains the leading cause of death worldwide, claiming millions of lives each year. While genetics play a role, the majority of heart disease cases are tied to modifiable risk factors—habits, health conditions, and lifestyle choices that increase the likelihood of cardiovascular problems. Understanding these risk factors is the first step toward prevention and maintaining a healthy heart. In this comprehensive guide, we’ll uncover the top risk factors for heart disease, discuss their impacts on your cardiovascular system, and provide actionable tips to reduce your risk.",
+      "title": "Quick Quack-Services, Heart Attack Risk Calculator, Car Wash Center and Heart Health CO.",
+      "introduction": "Quick Quack is a term that represents innovation, efficiency, and accuracy across various industries, making a significant impact in both the health and automobile sectors. The name has become synonymous with cutting-edge technology, high-quality service, and customer-centric solutions that redefine industry standards.",
       "sections": [
         {
-          "title": "Understanding Heart Disease: A Brief Overview",
+          "title": "Quick Quack in Health & AI-Powered Predictions",
           "content": [
-            "Heart disease refers to a range of conditions that affect the heart, including coronary artery disease, heart attacks, arrhythmias, and heart failure. These conditions often result from narrowed or blocked blood vessels, which can lead to chest pain (angina), stroke, or a heart attack.",
-            "The key to combating heart disease lies in identifying and mitigating the risk factors that contribute to its development."
+            "In the health domain, Quick Quack is associated with a groundbreaking heart attack risk predictor, an AI-powered tool designed to analyze key health parameters and provide early insights into potential cardiovascular risks. This technology leverages machine learning and data science to assess factors such as blood pressure, cholesterol levels, lifestyle habits, and genetic predispositions, offering users a data-driven approach to preventive healthcare. By integrating artificial intelligence into health analytics, Quick Quack aims to revolutionize medical predictions and empower individuals to take proactive measures for a healthier future.",
+            "Beyond heart health, Quick Quack’s expertise in AI extends to disease prediction models, where advanced algorithms analyze symptoms and patterns to forecast risks for conditions such as diabetes, kidney disease, and more. With the increasing reliance on predictive analytics in healthcare, Quick Quack is at the forefront of medical AI, providing solutions that assist both individuals and healthcare professionals in making informed decisions."
           ]
         },
         {
-          "title": "Top Risk Factors for Heart Disease",
+          "title": "Quick Quack in the Automobile Industry",
           "content": [
-            "1. High Blood Pressure (Hypertension): Hypertension is one of the most significant risk factors for heart disease. When your blood pressure is consistently high, it puts excessive strain on the arteries, causing them to become stiff or narrow over time. Why it’s dangerous: Narrowed arteries force the heart to work harder, increasing the risk of heart attack and stroke. How to manage it: Reduce sodium intake. Maintain a healthy weight. Exercise regularly. Take prescribed medications if needed.",
-            "2. High Cholesterol Levels: Cholesterol is essential for bodily functions, but too much “bad” LDL cholesterol can lead to plaque buildup in the arteries, a condition called atherosclerosis. Why it’s dangerous: Plaque buildup restricts blood flow, increasing the risk of a heart attack or stroke. How to manage it: Include more fiber-rich foods in your diet. Limit saturated fats and trans fats. Consider medications like statins if recommended by your doctor.",
-            "3. Smoking: Smoking is a leading cause of heart disease. The chemicals in tobacco damage the lining of the blood vessels, leading to inflammation and plaque formation. Why it’s dangerous: Smoking reduces oxygen levels in the blood and increases blood pressure, making the heart work harder. How to manage it: Seek professional help to quit. Use nicotine replacement therapies or medications as needed. Join support groups for encouragement.",
-            "4. Diabetes: Diabetes significantly increases the risk of heart disease. High blood sugar damages blood vessels and nerves, making it harder for the heart to function efficiently. Why it’s dangerous: Uncontrolled diabetes accelerates plaque buildup in the arteries. How to manage it: Monitor and maintain healthy blood sugar levels. Follow a diabetic-friendly diet. Stay physically active and take prescribed medications.",
-            "5. Obesity and Excess Weight: Carrying extra weight puts additional strain on the heart and increases the risk of other conditions like hypertension, diabetes, and high cholesterol. Why it’s dangerous: Excess fat, especially around the abdomen, is linked to increased heart disease risk. How to manage it: Adopt a balanced diet rich in fruits, vegetables, lean proteins, and whole grains. Aim for at least 150 minutes of moderate exercise per week. Set realistic weight-loss goals.",
-            "6. Physical Inactivity: A sedentary lifestyle contributes to poor cardiovascular health by increasing the risk of obesity, high blood pressure, and high cholesterol. Why it’s dangerous: Lack of exercise weakens the heart muscle and blood vessels. How to manage it: Incorporate activities like walking, swimming, or cycling into your routine. Use a fitness tracker to monitor daily activity levels. Choose stairs over elevators and take regular breaks from sitting.",
-            "7. Poor Diet: What you eat has a direct impact on your heart health. Diets high in saturated fats, trans fats, sodium, and sugar increase the risk of heart disease. Why it’s dangerous: Unhealthy diets contribute to obesity, high blood pressure, and high cholesterol. How to manage it: Embrace a heart-healthy diet, such as the Mediterranean diet. Limit processed foods and sugary beverages. Include heart-friendly foods like fatty fish, nuts, and whole grains.",
-            "8. Chronic Stress: Stress triggers the release of hormones like cortisol and adrenaline, which increase blood pressure and heart rate. Over time, chronic stress can damage the cardiovascular system. Why it’s dangerous: Prolonged stress leads to unhealthy coping mechanisms like overeating, smoking, or drinking alcohol. How to manage it: Practice stress-reduction techniques like meditation, yoga, or deep breathing. Take regular breaks to relax and unwind. Seek professional counseling if stress becomes overwhelming.",
-            "9. Sleep Apnea: Sleep apnea is a condition where breathing repeatedly stops and starts during sleep. It disrupts oxygen flow, increasing blood pressure and straining the heart. Why it’s dangerous: Untreated sleep apnea significantly raises the risk of heart attacks and strokes. How to manage it: Consult a doctor for diagnosis and treatment options. Use a CPAP machine if prescribed. Maintain a healthy weight to reduce symptoms.",
-            "10. Family History of Heart Disease: A family history of heart disease increases your risk, especially if close relatives were diagnosed at a young age. Why it’s dangerous: Genetic factors can predispose you to high cholesterol, hypertension, or other conditions linked to heart disease. How to manage it: Share your family medical history with your doctor. Be proactive in managing other risk factors through lifestyle changes.",
-            "11. Age and Gender: As you age, your risk of heart disease increases. Men are generally at a higher risk earlier in life, while women’s risk rises post-menopause. Why it’s dangerous: Aging leads to the natural stiffening of blood vessels and heart muscle. How to manage it: Schedule regular checkups to monitor heart health. Adopt heart-healthy habits early in life to mitigate age-related risks.",
-            "12. Alcohol Consumption: While moderate alcohol consumption may have some benefits, excessive drinking harms the heart. Why it’s dangerous: Heavy alcohol use raises blood pressure and triglyceride levels. How to manage it: Limit alcohol to one drink per day for women and two for men. Consider eliminating alcohol altogether for optimal heart health."
+            "While Quick Quack is a leader in health technology, it also has a strong presence in the automobile industry through Quick Quack Car Wash, a renowned eco-friendly and high-speed car cleaning service. Known for its commitment to sustainability, Quick Quack Car Wash uses biodegradable cleaning agents and water-efficient systems, ensuring a fast, high-quality, and environmentally responsible car wash experience. With an emphasis on speed, affordability, and customer satisfaction, the brand has expanded across multiple locations, making professional car care accessible to millions.",
           ]
         },
         {
-          "title": "Proactive Steps to Lower Your Risk",
+          "title": "Quick Quack’s Vision for the Future",
           "content": [
-            "Taking control of your heart health is easier than you think. Here are some proactive measures to reduce your risk of heart disease: Educate Yourself: Learn about heart disease and its risk factors. Get Regular Checkups: Monitor your blood pressure, cholesterol, and blood sugar levels. Adopt a Heart-Healthy Lifestyle: Focus on diet, exercise, and stress management. Avoid Smoking and Excessive Alcohol: These habits significantly harm your heart. Stay Active in Your Community: Social engagement promotes mental and emotional well-being, indirectly benefiting heart health."
+            "With a strong foundation in innovation, Quick Quack continues to explore new frontiers, expanding into AI-driven automation, smart diagnostics, and green technology solutions. Whether through machine learning applications in healthcare or sustainable practices in car maintenance, Quick Quack remains committed to shaping the future with efficiency, intelligence, and cutting-edge advancements. As Quick Quack continues to grow, it stands as a testament to how a single name can bridge industries, redefine standards, and improve lives—all while maintaining its core values of innovation, accuracy, and efficiency."
           ]
         },
         {
-          "title": "Conclusion",
+          "title": "What are the Quick Quack Services?",
           "content": [
-            "Heart disease doesn’t have to be an inevitable part of life. By understanding the top risk factors and taking proactive steps to address them, you can significantly lower your chances of developing cardiovascular problems. Remember, small changes in your daily routine can lead to big improvements in your heart health.",
-            "Your heart works tirelessly for you—make sure you’re doing everything you can to protect it. Start today, because a healthy heart means a healthier, happier you."
+            "Quick Quack offers a range of services that cater to both health-conscious individuals and car owners looking for premium washing solutions. Some of the key services include:",
+            "Quick Quack Heart Attack Risk Predictor – A revolutionary AI-powered tool designed to evaluate an individual’s heart health based on multiple parameters.",
+            "Quick Quack Car Wash – A premium car wash service known for its quick, eco-friendly, and high-quality car cleaning services.",
+            "These services operate in distinct industries but share a common goal – delivering efficiency and excellence through modern technology."
           ]
-        }
+        },
+        {
+          "title": "Quick Quack Heart Attack Risk Predictor: Revolutionizing Preventive Healthcare",
+          "content": [
+            "The Quick Quack Heart Attack Risk Predictor is a sophisticated, AI-powered health tool designed to assess an individual's likelihood of experiencing a heart attack. By leveraging advanced machine learning algorithms, this technology processes a wide range of personalized health parameters to generate an accurate risk score, empowering users with actionable insights into their cardiovascular health."
+          ]
+        },
+        {
+          "title": "How It Works",
+          "content": [
+            "The Quick Quack Heart Attack Risk Predictor collects and analyzes critical health factors, including:",
+            "✅ Blood Pressure Levels – Identifies hypertension or hypotension risks, both of which contribute to cardiovascular disease.",
+            "✅ Cholesterol Levels – Assesses LDL ('bad' cholesterol) and HDL ('good' cholesterol) levels to determine plaque buildup risk in arteries.",
+            "✅ Blood Sugar Levels – Detects signs of diabetes or insulin resistance, both of which are linked to heart disease.",
+            "✅ Age and Weight – Evaluates BMI and age-related risks, as obesity and aging increase cardiovascular vulnerability.",
+            "✅ Family History of Cardiovascular Diseases – Considers genetic predispositions to assess inherited heart disease risks.",
+            "✅ Lifestyle Factors – Analyzes habits such as smoking, alcohol consumption, physical activity, and dietary choices that influence heart health."
+          ]
+        },
+        {
+          "title": "Key Features & Benefits",
+          "content": [
+            "🔹 AI-Powered Precision: Our state-of-the-art algorithms continuously learn from global health data, ensuring high accuracy and reliability in risk assessments.",
+            "🔹 Personalized Risk Score: Users receive a detailed breakdown of their heart attack risk, along with tailored recommendations for lifestyle changes and medical interventions.",
+            "🔹 Early Detection & Prevention: Identifying risk factors early allows users to take preventive measures before severe complications arise.",
+            "🔹 User-Friendly Interface: Designed with simplicity and accessibility in mind, the tool is suitable for individuals of all ages, including those with limited medical knowledge.",
+            "🔹 Integration with Healthcare Providers: The Quick Quack Heart Attack Risk Predictor can be used as a supporting tool for doctors and cardiologists, enhancing patient diagnosis and treatment planning."
+          ]
+        },
+        {
+          "title": "The Future of AI in Cardiovascular Health",
+          "content": [
+            "With heart disease remaining the leading cause of death globally, Quick Quack is at the forefront of AI-driven healthcare solutions. By combining the power of machine learning, predictive analytics, and real-time health monitoring, the Quick Quack Heart Attack Risk Predictor is paving the way for a future where preventive healthcare is proactive, personalized, and easily accessible.",
+            "Whether you're looking to take control of your heart health or seeking an AI-powered tool to support your medical practice, Quick Quack provides the insights needed to make informed decisions and lead a healthier life. 🚀❤️"
+          ]
+        },
+        {
+          "title": "How the Quick Quack Heart Attack Risk Predictor Enhances Well-Being",
+          "content": [
+            "The Quick Quack Heart Attack Risk Predictor is more than just a diagnostic tool—it’s a comprehensive health companion designed to empower individuals with actionable insights into their cardiovascular well-being. By combining AI-driven analysis with personalized recommendations, it enables users to take proactive steps toward heart health, ultimately reducing the risk of heart-related complications."
+          ]
+        },
+        {
+          "title": "Key Benefits:",
+          "content": [
+          ]
+        },
+        {
+          "title": "🩺 Early Detection of Risks",
+          "content": [
+            "🔹 Identifies potential heart attack risks before they develop into serious health issues.",
+            "🔹 Enables timely medical intervention, reducing the likelihood of emergency situations.",
+            "🔹 Helps users track their cardiovascular health over time, detecting gradual changes in risk factors."
+          ]
+        },
+        {
+          "title": "📊 Personalized Health Insights",
+          "content": [
+            "🔹 Provides a detailed breakdown of heart attack risk based on real-time health data.",
+            "🔹 Delivers customized recommendations, including dietary adjustments, exercise routines, and lifestyle modifications.",
+            "🔹 Adjusts predictions dynamically as users update their health information, ensuring accuracy over time."
+          ]
+        },
+        {
+          "title": "⚕️ Preventive Health Measures",
+          "content": [
+            "🔹 Encourages users to adopt heart-friendly habits, such as regular exercise, a balanced diet, and stress management.",
+            "🔹 Helps users avoid high-risk behaviors, such as smoking, excessive alcohol consumption, and sedentary lifestyles.",
+            "🔹 Educates individuals on how daily choices impact heart health, fostering long-term wellness."
+          ]
+        },
+        {
+          "title": "⏳ Time and Cost Efficiency",
+          "content": [
+            "🔹 Reduces reliance on expensive medical tests by offering quick, AI-powered assessments.",
+            "🔹 Saves time by allowing users to perform instant evaluations from anywhere, without the need for frequent doctor visits.",
+            "🔹 Assists healthcare professionals by prioritizing high-risk patients, ensuring timely medical attention."
+          ]
+        },
+        {
+          "title": "🧘 Peace of Mind & Health Awareness",
+          "content": [
+            "🔹 Empowers individuals to stay informed about their heart health and make data-driven decisions.",
+            "🔹 Provides reassurance by offering clear, easy-to-understand results, eliminating uncertainty.",
+            "🔹 Encourages a proactive approach to well-being, leading to longer, healthier lives."
+          ]
+        },
+        {
+          "title": "🌍 A Global Step Towards Smarter Healthcare",
+          "content": [
+            "With cardiovascular diseases being one of the leading causes of death worldwide, the Quick Quack Heart Attack Risk Predictor represents a major advancement in AI-driven healthcare. By making preventive heart health assessments accessible, fast, and reliable, Quick Quack is bridging the gap between medical innovation and everyday wellness.",
+            "💙 Take charge of your heart health today with Quick Quack—because prevention is the best cure!"
+          ]
+        },
+        {
+          "title": "What are the Quick Quack Car Wash Services? And How They Are Working for Quick Quack Heart Attack Risk Prediction?",
+          "content": [
+          ]
+        },
+        {
+          "title": "Quick Quack Car Wash Services",
+          "content": [
+            "Quick Quack Car Wash is an industry leader in the automobile cleaning sector, known for its fast, high-quality, and eco-friendly car wash services. With a strong commitment to efficiency, sustainability, and customer satisfaction, Quick Quack has set new standards for vehicle cleaning while minimizing environmental impact. Whether you're looking for a quick refresh or regular maintenance, Quick Quack ensures that your vehicle stays spotless, protected, and well-maintained."
+          ]
+        },
+        {
+          "title": "🚗 Premium Car Wash Services Offered by Quick Quack",
+          "content": [
+            
+          ]
+        },
+        {
+          "title": "⚡ Express Car Wash",
+          "content": [
+            "🔹 A high-speed, high-quality car wash completed in just minutes.",
+            "🔹 Designed for busy individuals who want a thorough clean without long wait times.",
+            "🔹 Uses advanced cleaning techniques to remove dirt, dust, and grime effectively."
+          ]
+        },
+        {
+          "title": "🌱 Eco-Friendly Cleaning",
+          "content": [
+            "🔹 Utilizes biodegradable cleaning agents that are safe for the environment.",
+            "🔹 Employs water-efficient technology, reducing water waste compared to traditional car washes.",
+            "🔹 Supports sustainable practices without compromising on quality."
+          ]
+        },
+        {
+          "title": "🔄 Unlimited Wash Plans",
+          "content": [
+            "🔹 Provides subscription-based unlimited car wash services for regular vehicle maintenance.",
+            "🔹 Saves customers money and time by offering affordable, hassle-free cleaning options.",
+            "🔹 Ensures that your car stays consistently clean and protected from dirt and contaminants."
+          ]
+        },
+        {
+          "title": "🧼 Touchless & Soft Cloth Washing",
+          "content": [
+            "🔹 Offers touchless washing to clean vehicles without any risk of scratches.",
+            "🔹 Utilizes soft cloth technology to provide a gentle yet thorough cleaning experience.",
+            "🔹 Preserves your car’s paint and finish, extending its lifespan and shine."
+          ]
+        },
+        {
+          "title": "✨ Additional Features & Customer Benefits",
+          "content": [
+            "✅ Fast, Drive-Thru Convenience – No appointment needed! Just drive in and get a professional car wash in minutes.",
+            "✅ Advanced Drying Technology – High-powered air dryers eliminate water spots for a streak-free finish.",
+            "✅ Premium Wax & Shine Treatments – Adds a layer of protection and gloss, keeping your car looking brand-new.",
+            "✅ Free Vacuums & Interior Cleaning Stations – Customers get access to free vacuums for interior detailing.",
+            "✅ Family-Friendly & Community-Oriented – Quick Quack frequently engages in community events and charity initiatives."
+          ]
+        },
+        {
+          "title": "🌍 Leading the Future of Car Washing",
+          "content": [
+            "Quick Quack Car Wash is more than just a car cleaning service—it’s a movement towards sustainable, high-tech, and customer-centric vehicle care. By integrating eco-conscious practices with cutting-edge washing technology, Quick Quack continues to set industry benchmarks and redefine how car owners maintain their vehicles.",
+            "🚘 Join the Quick Quack family today and experience the future of car washing—fast, eco-friendly, and always reliable! 🌟"
+          ]
+        },
+        {
+          "title": "How Quick Quack Car Wash Services Relate to Quick Quack Heart Attack Risk Prediction",
+          "content": [
+            "At first glance, Quick Quack Car Wash and Quick Quack Heart Attack Risk Predictor may seem worlds apart—one focused on vehicle maintenance, the other on heart health. However, both share a common mission: to provide fast, precise, and proactive solutions that enhance quality of life.",
+            "Just as a car requires regular maintenance to operate at peak performance, the human body needs consistent health check-ups to prevent serious illnesses. Quick Quack embraces this parallel approach by integrating AI-driven efficiency into both automobile care and personal health."
+          ]
+        },
+        {
+          "title": "🔄 The Parallel Between Car Care & Health Care",
+          "content": [
+            "🚗 A Well-Maintained Car = A Healthy Body 🏥",
+          ]
+        },
+        {
+          "title": "1️⃣ Preventive Maintenance for Longevity",
+          "content": [
+            "Quick Quack Car Wash ensures that vehicles remain clean and protected, preventing long-term damage caused by dirt, grime, and environmental exposure.",
+            "Quick Quack Heart Attack Risk Predictor helps users stay ahead of cardiovascular risks, allowing for early detection and preventive measures before health problems escalate."
+          ]
+        },
+        {
+          "title": "2️⃣ Efficiency & Accuracy in Every Process",
+          "content": [
+            "Quick Quack Car Wash offers express cleaning solutions that maximize speed and effectiveness.",
+            "Quick Quack Heart Attack Risk Predictor provides instant, AI-powered risk analysis, delivering precise insights into heart health within seconds."
+          ]
+        },
+        {
+          "title": "3️⃣ Technology-Driven Optimization",
+          "content": [
+            "Both services utilize cutting-edge technology to achieve optimal results in minimal time.",
+            "AI algorithms ensure that car wash procedures and health assessments are not only fast but also highly accurate."
+          ]
+        },
+        {
+          "title": "4️⃣ Cost-Effective & Accessible Solutions",
+          "content": [
+            "Regular car washes help avoid costly repairs by maintaining the vehicle’s exterior and longevity.",
+            "Early heart health assessments reduce medical expenses by identifying risks before they turn into serious conditions."
+          ]
+        },
+        {
+          "title": "5️⃣ A Commitment to Well-Being",
+          "content": [
+            "A clean, well-maintained car enhances driving experience, safety, and vehicle performance.",
+            "A healthy heart leads to a longer, more active, and fulfilling life."
+          ]
+        },
+        {
+          "title": "🌍 Enhancing Everyday Life with Smart Solutions",
+          "content": [
+            "The integration of AI-driven technology in both Quick Quack Car Wash and Quick Quack Heart Attack Risk Predictor makes them essential tools for modern living. Whether it’s keeping your car in pristine condition or monitoring your heart health, Quick Quack provides the efficiency, accuracy, and convenience needed to maintain both physical and mechanical well-being.",
+            "🚀 In a fast-paced world, Quick Quack ensures that both you and your vehicle are always in top shape.",
+            "💡 Because whether it’s your car or your heart—prevention, efficiency, and care are the keys to longevity!"
+          ]
+        },
+        {
+          "title": "What Does the Term 'Quick Quack' Mean in Heart Attack Risk Prediction?",
+          "content": [
+            "In the realm of heart attack risk prediction, Quick Quack represents a fast, efficient, and highly accurate approach to assessing cardiovascular risks. Unlike traditional medical evaluations—which often involve multiple doctor visits, costly diagnostic tests, and long waiting periods—the Quick Quack Heart Attack Risk Predictor offers a seamless, AI-driven solution for proactive heart health management.",
+            "This innovative tool empowers individuals to take control of their cardiovascular well-being with instant insights, AI-powered precision, and data-backed recommendations—all within seconds."
+          ]
+        },
+        {
+          "title": "🔍 Key Features & Benefits of Quick Quack Heart Attack Risk Predictor",
+          "content": [
+            "Regular car washes help avoid costly repairs by maintaining the vehicle’s exterior and longevity.",
+            "Early heart health assessments reduce medical expenses by identifying risks before they turn into serious conditions."
+          ]
+        },
+        {
+          "title": "✅ 📊 Instant Health Assessments",
+          "content": [
+            "Eliminates the need for long waiting times by delivering an immediate heart attack risk evaluation.",
+            "Users receive their personalized risk score within moments, helping them make informed decisions about their health."
+          ]
+        },
+        {
+          "title": "✅ 🤖 AI-Powered Precision",
+          "content": [
+            "Advanced machine learning algorithms analyze a wide range of health parameters, including blood pressure, cholesterol levels, lifestyle habits, and family history.",
+            "AI-driven models ensure highly accurate predictions, providing reliable risk assessments for cardiovascular health."
+          ]
+        },
+        {
+          "title": "✅ 🖥️ User-Friendly Interface",
+          "content": [
+            "Designed with a simple and intuitive platform, making it accessible to individuals of all ages.",
+            "No technical expertise required—just input your health data, and the AI does the rest."
+          ]
+        },
+        {
+          "title": "✅ 📈 Data-Driven Insights & Actionable Recommendations",
+          "content": [
+            "Provides personalized health guidance based on statistical trends and medical research.",
+            "Users receive tailored suggestions on diet, exercise, and lifestyle modifications to reduce their risk factors."
+          ]
+        },
+        {
+          "title": "✅ 💰 Cost-Effective & Time-Saving",
+          "content": [
+            "Reduces the need for expensive laboratory tests and frequent doctor visits.",
+            "Offers a budget-friendly alternative for ongoing cardiovascular health monitoring."
+          ]
+        },
+        {
+          "title": "✅ 🔄 Continuous Learning & Improvement",
+          "content": [
+            "AI models continuously update based on new data and improved prediction algorithms.",
+            "Ensures that risk assessments become more refined and accurate over time."
+          ]
+        },
+        {
+          "title": "🌍 Empowering Individuals to Take Control of Their Heart Health",
+          "content": [
+            "By combining the power of machine learning, predictive analytics, and real-time health monitoring, the Quick Quack Heart Attack Risk Predictor is revolutionizing how people track, assess, and improve their cardiovascular health.",
+            "🚀 Fast, accurate, and actionable—Quick Quack ensures that individuals can stay ahead of potential heart health issues with ease and confidence.",
+            "❤️ Because when it comes to heart health, prevention is the best cure!"
+          ]
+        },
+        {
+          "title": "Conclusion:",
+          "content": [
+            
+          ]
+        },
+        {
+          "title": "Quick Quack: Innovation, Efficiency, and Precision Across Industries",
+          "content": [
+            "Quick Quack is more than just a name—it’s a philosophy that blends speed, accuracy, and reliability into two vastly different yet equally essential sectors: healthcare and automobile maintenance. Whether safeguarding heart health or ensuring vehicles remain spotless, Quick Quack is committed to delivering cutting-edge solutions through technology and service excellence."
+          ]
+        },
+        {
+          "title": "🚀 Revolutionizing Health & Automobile Care with Quick Quack",
+          "content": [
+            
+          ]
+        },
+        {
+          "title": "🔬 Quick Quack Heart Attack Risk Predictor",
+          "content": [
+            "Empowers individuals with quick and precise heart health assessments.",
+            "Ensures early risk detection, allowing users to prevent cardiovascular diseases before they escalate.",
+            "AI-driven predictions make it one of the most advanced and accessible health monitoring tools available."
+          ]
+        },
+        {
+          "title": "🚗 Quick Quack Car Wash",
+          "content": [
+            "Provides an eco-friendly, fast, and high-quality car cleaning experience.",
+            "Implements water-saving technology and biodegradable products to minimize environmental impact.",
+            "Reflects the same efficiency and precision as seen in the healthcare sector."
+          ]
+        },
+        {
+          "title": "🔄 Bridging Technology & Service for a Smarter Future",
+          "content": [
+            "Despite their differences, both Quick Quack solutions share a common goal:",
+            "✅ Efficiency – Delivering fast and effective results in seconds.",
+            "✅ Precision – Utilizing AI-driven technology and best-in-class service methodologies.",
+            "✅ Innovation – Continuously improving health and automobile care through cutting-edge advancements.",
+            "✅ User-Centric Approach – Ensuring that both health assessments and car washes are accessible, seamless, and convenient."
+
+          ]
+        },
+        {
+          "title": "🌍 Redefining Speed, Reliability & Innovation in Everyday Life",
+          "content": [
+            "Whether you’re looking for a healthier future or a cleaner, well-maintained car, Quick Quack has the perfect solution for you.",
+            "🚀 Because in a fast-paced world, your health and your car deserve the best—delivered quickly and reliably.",
+            "💡 Quick Quack: Where Innovation Meets Everyday Essentials!"
+          ]
+        },
       ]
     },
     // Article 8
@@ -2959,7 +3292,7 @@ const BlogDetail = () => {
     // Article 32
     {
       "id": "32",
-      "title": "Understanding Myocardial Infarction",
+      "title": "Understanding Myocardial Infarction, Symptoms, Causes and Instant Treatment",
       "introduction": "Myocardial infarction, commonly known as a heart attack, occurs when the blood flow to the heart is blocked, leading to tissue damage. This condition is life-threatening and requires immediate medical attention. This article explains myocardial infarction in simple terms, its causes, symptoms, treatment, and preventive measures. For more details, visit [Wikipedia](https://en.wikipedia.org/wiki/Myocardial_infarction).",
       "sections": [
         {
@@ -3033,7 +3366,11 @@ const BlogDetail = () => {
     
   ];
 
-  const blog = blogs.find(blog => blog.id === id);
+  const blog = blogs.find(blog => generateSlug(blog.title) === slug);
+
+  if (!blog) {
+    return <div>Blog not found</div>; // Handle case where blog is not found
+  }
 
   return (
     <div className="blog-detail">
