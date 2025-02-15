@@ -106,9 +106,9 @@ const BlogPage = () => {
     },
     {
       id: 10,
-      title: 'The Role of Sleep in Heart Health: Are You Getting Enough?',
+      title: 'Dr. Oz Diabetes Treatment: A Comprehensive Guide to Managing Diabetes Naturally',
       image: A10,
-      link: `/blog/${generateSlug('The Role of Sleep in Heart Health: Are You Getting Enough?')}`,
+      link: `/blog/${generateSlug('Dr. Oz Diabetes Treatment: A Comprehensive Guide to Managing Diabetes Naturally')}`,
     },
     {
       id: 11,
